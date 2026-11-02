@@ -1,0 +1,16 @@
+{
+  "name": "Bar.Data",
+  "rootNamespace": "Bar.Data",
+  "references": [
+    "CraftingResearch.SimulationV2"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

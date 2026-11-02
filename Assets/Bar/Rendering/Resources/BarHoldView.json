@@ -1,0 +1,1172 @@
+{
+  "note": "手持物取景与手感（右手为准，左手镜像）。center 为包围盒中心的屏幕坐标（-1..1），screenHeight 为物品高度占屏比例，euler 为握点坐标系相对相机的朝向（度）。按 match 前缀取第一条，最后一条为默认。人为设定、未标定，按截图调。长柄工具（吧勺、冰夹、冰铲）的长轴是握点 z 轴：pitch 负值把它立起来，yaw 负值让顶端偏向画面中央；吧勺只露出握点以上的一段（下半截在手里、出画）。face 让标签（酒瓶）正对玩家，faceYaw 再向画面中央多转几度；量酒器的刻度在杯内壁，faceYaw≈180 让刻度落在对面内壁、从杯口看进去。observe 为往手里的容器倒时的观察镜头（低头看进杯里）。accent 为 V2 展示动作（合盖一顿、摇完赏霜、擦干转壶）。inspect 为 V3 空量酒器检视（F 键）。",
+  "emptyHand": {
+    "x": 0.2,
+    "y": -0.27,
+    "z": 0.55
+  },
+  "profiles": [
+    {
+      "match": "bottle.gin",
+      "center": {
+        "x": 0.5,
+        "y": -0.35
+      },
+      "screenHeight": 0.58,
+      "minDistance": 0.34,
+      "maxDistance": 0.55,
+      "topLimit": 0.18,
+      "minVisible": 0.78,
+      "innerLimit": 0.12,
+      "euler": {
+        "x": 6,
+        "y": -12,
+        "z": 5
+      },
+      "face": "Label",
+      "faceYaw": 12
+    },
+    {
+      "match": "bottle.",
+      "center": {
+        "x": 0.5,
+        "y": -0.35
+      },
+      "screenHeight": 0.52,
+      "minDistance": 0.32,
+      "maxDistance": 0.55,
+      "topLimit": 0.12,
+      "minVisible": 0.8,
+      "innerLimit": 0.12,
+      "euler": {
+        "x": 6,
+        "y": -12,
+        "z": 5
+      },
+      "face": "Label",
+      "faceYaw": 12
+    },
+    {
+      "match": "shaker.cobbler",
+      "center": {
+        "x": 0.48,
+        "y": -0.4
+      },
+      "screenHeight": 0.46,
+      "minDistance": 0.3,
+      "maxDistance": 0.5,
+      "topLimit": 0.06,
+      "minVisible": 0.86,
+      "innerLimit": 0.12,
+      "euler": {
+        "x": -4,
+        "y": -10,
+        "z": 4
+      }
+    },
+    {
+      "match": "glass.",
+      "center": {
+        "x": 0.48,
+        "y": -0.42
+      },
+      "screenHeight": 0.42,
+      "minDistance": 0.3,
+      "maxDistance": 0.5,
+      "topLimit": 0.02,
+      "minVisible": 0.88,
+      "innerLimit": 0.12,
+      "euler": {
+        "x": -8,
+        "y": -8,
+        "z": 4
+      }
+    },
+    {
+      "match": "jigger.",
+      "center": {
+        "x": 0.44,
+        "y": -0.5
+      },
+      "screenHeight": 0.4,
+      "minDistance": 0.28,
+      "maxDistance": 0.45,
+      "topLimit": -0.1,
+      "minVisible": 0.9,
+      "innerLimit": 0.12,
+      "euler": {
+        "x": -30,
+        "y": -10,
+        "z": 6
+      },
+      "face": "Mark",
+      "faceYaw": 172,
+      "faceUpper": true
+    },
+    {
+      "match": "tool.spoon",
+      "center": {
+        "x": 0.5,
+        "y": -0.3
+      },
+      "screenHeight": 1.0,
+      "minDistance": 0.2,
+      "maxDistance": 0.36,
+      "topLimit": -0.02,
+      "minVisible": 0.35,
+      "innerLimit": 0.12,
+      "euler": {
+        "x": -52,
+        "y": -36,
+        "z": 0
+      }
+    },
+    {
+      "match": "tool.tongs",
+      "center": {
+        "x": 0.42,
+        "y": -0.36
+      },
+      "screenHeight": 0.48,
+      "minDistance": 0.26,
+      "maxDistance": 0.4,
+      "topLimit": 0.06,
+      "minVisible": 0.82,
+      "innerLimit": 0.08,
+      "euler": {
+        "x": -58,
+        "y": -41,
+        "z": 90
+      }
+    },
+    {
+      "match": "tool.scoop",
+      "center": {
+        "x": 0.42,
+        "y": -0.42
+      },
+      "screenHeight": 0.34,
+      "minDistance": 0.26,
+      "maxDistance": 0.42,
+      "topLimit": 0.0,
+      "minVisible": 0.85,
+      "innerLimit": 0.08,
+      "euler": {
+        "x": -25,
+        "y": -50,
+        "z": 0
+      }
+    },
+    {
+      "match": "tool.squeezer",
+      "center": {
+        "x": 0.5,
+        "y": -0.45
+      },
+      "screenHeight": 0.32,
+      "minDistance": 0.3,
+      "maxDistance": 0.5,
+      "topLimit": 0.0,
+      "minVisible": 0.75,
+      "innerLimit": 0.1,
+      "euler": {
+        "x": 30,
+        "y": -40,
+        "z": 0
+      }
+    },
+    {
+      "match": "",
+      "center": {
+        "x": 0.45,
+        "y": -0.5
+      },
+      "screenHeight": 0.22,
+      "minDistance": 0.26,
+      "maxDistance": 0.4,
+      "topLimit": -0.1,
+      "minVisible": 0.95,
+      "innerLimit": 0.12,
+      "euler": {
+        "x": -18,
+        "y": -10,
+        "z": 0
+      }
+    }
+  ],
+  "sway": {
+    "lagSeconds": 0.022,
+    "maxDegrees": 4,
+    "rollFactor": 0.35,
+    "frequency": 2.6,
+    "zeta": 0.55,
+    "response": 0
+  },
+  "bob": {
+    "stepHz": 1.7,
+    "sideMetres": 0.004,
+    "dropMetres": 0.006,
+    "frequency": 2,
+    "zeta": 1
+  },
+  "transition": {
+    "frequency": 3.2,
+    "zeta": 0.72,
+    "response": 0,
+    "arcMetres": 0.025
+  },
+  "observe": {
+    "enabled": true,
+    "sightDegrees": 68,
+    "maxDegrees": 34,
+    "frequency": 1.4,
+    "zeta": 1
+  },
+  "accent": {
+    "capTapMetres": 0.025,
+    "strainerTapMetres": 0.012,
+    "bottleCapTapMetres": 0.01,
+    "wipeTapMetres": 0.008,
+    "shakeStopMetres": 0.03,
+    "tapSeconds": 0.05,
+    "tapFrequency": 14,
+    "tapZeta": 0.4,
+    "admireSeconds": 1.6,
+    "admireScale": 1.18,
+    "admireFrequency": 2.2,
+    "admireZeta": 0.85,
+    "admireShift": {
+      "x": -0.16,
+      "y": 0.1
+    },
+    "wipeDegrees": 360,
+    "wipeSeconds": 0.6
+  },
+  "inspectAll": {
+    "note": "InspectArtDirection V5：2026-10-29 用户最新编排优先；量酒器保持V3。斜向透视、移动转轴、慢观快收、勺尖运行时悬臂余振。封盖载物壶允许轻抛轴转，载柠檬压汁器允许只读窥视。人为设定、未标定。",
+    "interruptFrequency": 12,
+    "interruptZeta": 1,
+    "profiles": [
+      {
+        "match": "tool.spoon",
+        "lookSeconds": 1.15,
+        "playSeconds": 0.8,
+        "returnSeconds": 0.4,
+        "liftSeconds": 0.35,
+        "center": {
+          "x": 0.015,
+          "y": -0.02,
+          "z": 0.33
+        },
+        "settleSeconds": 0.3,
+        "spinBias": 1.5,
+        "diagonalDegrees": 35,
+        "depthDegrees": 25,
+        "lookRollDegrees": 240,
+        "turnDegrees": 540,
+        "windupSeconds": 0.15,
+        "airSeconds": 0.65,
+        "windupBackMetres": 0.02,
+        "windupDegrees": 8,
+        "spinPlaneDegrees": 35,
+        "pivotFraction": 0.4,
+        "ringDegrees": 4.5,
+        "ringHz": 14,
+        "ringDecay": 15.35,
+        "ringSeconds": 0.3,
+        "drawMetres": 0.025,
+        "sounds": [
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 15,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 30,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 45,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 60,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 3
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 75,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 90,
+            "bank": "microRidge",
+            "gain": 0.038,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 105,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 120,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 3
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 135,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 150,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 165,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 180,
+            "bank": "microRidge",
+            "gain": 0.038,
+            "pitch": 1,
+            "when": "any",
+            "variant": 3
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 195,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 210,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 225,
+            "bank": "microRidge",
+            "gain": 0.03,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 45,
+            "bank": "microRidge",
+            "gain": 0.043,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 90,
+            "bank": "microRidge",
+            "gain": 0.052,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 135,
+            "bank": "microRidge",
+            "gain": 0.043,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 180,
+            "bank": "microRidge",
+            "gain": 0.052,
+            "pitch": 1,
+            "when": "any",
+            "variant": 3
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 225,
+            "bank": "microRidge",
+            "gain": 0.043,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 270,
+            "bank": "microRidge",
+            "gain": 0.052,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 315,
+            "bank": "microRidge",
+            "gain": 0.043,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 360,
+            "bank": "microRidge",
+            "gain": 0.052,
+            "pitch": 1,
+            "when": "any",
+            "variant": 3
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 405,
+            "bank": "microRidge",
+            "gain": 0.043,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 450,
+            "bank": "microRidge",
+            "gain": 0.052,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 495,
+            "bank": "microRidge",
+            "gain": 0.043,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 90,
+            "bank": "microKnuckle",
+            "gain": 0.095,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0,
+            "phase": "spoon.roll",
+            "degrees": 180,
+            "bank": "microKnuckle",
+            "gain": 0.08,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 0,
+            "phase": "spoon.whip",
+            "degrees": 270,
+            "bank": "microKnuckle",
+            "gain": 0.11,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 0,
+            "phase": "spoon.stop",
+            "degrees": 0,
+            "bank": "microSpoonStop",
+            "gain": 0.15,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          }
+        ],
+        "catchFrequency": 6,
+        "catchZeta": 0.75,
+        "catchDipSeconds": 0.22,
+        "pivotRecenterSeconds": 0.13
+      },
+      {
+        "match": "tool.tongs",
+        "lookSeconds": 1.1,
+        "playSeconds": 1.15,
+        "returnSeconds": 0.35,
+        "liftSeconds": 0.35,
+        "center": {
+          "x": 0.028,
+          "y": -0.025,
+          "z": 0.32
+        },
+        "settleSeconds": 0,
+        "spinBias": 1.5,
+        "diagonalDegrees": 40,
+        "depthDegrees": 22,
+        "lookRollDegrees": 12,
+        "windupSeconds": 0.1,
+        "airSeconds": 0.38,
+        "tossMetres": 0.08,
+        "catchMetres": 0.028,
+        "spinPlaneDegrees": 20,
+        "drawMetres": 0.018,
+        "sounds": [
+          {
+            "time": 0.245,
+            "bank": "inspectTongs",
+            "gain": 0.217,
+            "pitch": 1.04,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 0.56,
+            "bank": "inspectTongs",
+            "gain": 0.344,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 1.38,
+            "bank": "inspectSwish",
+            "gain": 0.097,
+            "pitch": 1,
+            "when": "any",
+            "variant": 2
+          },
+          {
+            "time": 1.58,
+            "bank": "inspectCatch",
+            "gain": 0.307,
+            "pitch": 1,
+            "when": "any",
+            "variant": 0
+          },
+          {
+            "time": 1.585,
+            "bank": "inspectTongs",
+            "gain": 0.122,
+            "pitch": 0.94,
+            "when": "any",
+            "variant": 1
+          }
+        ],
+        "catchFrequency": 6,
+        "catchZeta": 0.75,
+        "catchDipSeconds": 0.22,
+        "pivotRecenterSeconds": 0.13,
+        "lightPinchDegrees": 7,
+        "deepPinchDegrees": 13,
+        "pinchStart": 0.16,
+        "firstPinchSeconds": 0.17,
+        "pinchPauseSeconds": 0.12,
+        "secondPinchSeconds": 0.22,
+        "firstRecoilDegrees": 1.5,
+        "secondRecoilDegrees": 3,
+        "recoilSeconds": 0.14
+      },
+      {
+        "match": "tool.scoop",
+        "lookSeconds": 1.05,
+        "playSeconds": 1.15,
+        "returnSeconds": 0.35,
+        "liftSeconds": 0.35,
+        "center": {
+          "x": 0.028,
+          "y": -0.025,
+          "z": 0.32
+        },
+        "settleSeconds": 0,
+        "spinBias": 1.5,
+        "diagonalDegrees": 35,
+        "depthDegrees": 25,
+        "lookRollDegrees": 20,
+        "windupSeconds": 0.1,
+        "airSeconds": 0.38,
+        "tossMetres": 0.075,
+        "catchMetres": 0.025,
+        "spinPlaneDegrees": 25,
+        "drawMetres": 0.016,
+        "sounds": [
+          {
+            "time": 1.33,
+            "bank": "inspectSwish",
+            "gain": 0.097,
+            "pitch": 1,
+            "when": "any",
+            "variant": 3
+          },
+          {
+            "time": 1.53,
+            "bank": "inspectCatch",
+            "gain": 0.307,
+            "pitch": 1,
+            "when": "any",
+            "variant": 1
+          },
+          {
+            "time": 1.535,
+            "bank": "inspectTin",
+            "gain": 0.154,
+            "pitch": 1.3,
+            "when": "any",
+            "variant": 0
+          }
+        ],
+        "catchFrequency": 6,
+        "catchZeta": 0.75,
+        "catchDipSeconds": 0.22,
+        "pivotRecenterSeconds": 0.13
+      },
+      {
+        "match": "shaker.cobbler",
+        "lookSeconds": 1.15,
+        "playSeconds": 1.2,
+        "returnSeconds": 0.4,
+        "liftSeconds": 0.35,
+        "center": {
+          "x": 0.028,
+          "y": -0.025,
+          "z": 0.32
+        },
+        "settleSeconds": 0,
+        "spinBias": 1.5,
+        "tiltDegrees": 18,
+        "lookTurnDegrees": 50,
+        "windupSeconds": 0.11,
+        "airSeconds": 0.4,
+        "tossMetres": 0.09,
+        "catchMetres": 0.03,
+        "sealedTossMetres": 0.035,
+        "sealedAirSeconds": 0.46,
+        "sealedCatchMetres": 0.025,
+        "axialRollDegrees": 180,
+        "circleMetres": 0.02,
+        "raiseMetres": 0.022,
+        "spinPlaneDegrees": 15,
+        "drawMetres": 0.016,
+        "sounds": [
+          {
+            "time": 0.575,
+            "bank": "inspectIce",
+            "gain": 0.077,
+            "pitch": 0.9,
+            "when": "open+ice",
+            "variant": 0,
+            "scale": "ice"
+          },
+          {
+            "time": 0.575,
+            "bank": "inspectIce",
+            "gain": 0.055,
+            "pitch": 0.8,
+            "when": "sealed+ice",
+            "variant": 1,
+            "scale": "ice"
+          },
+          {
+            "time": 1.4,
+            "bank": "inspectSwish",
+            "gain": 0.087,
+            "pitch": 0.8,
+            "when": "empty",
+            "variant": 0
+          },
+          {
+            "time": 1.66,
+            "bank": "inspectCatch",
+            "gain": 0.386,
+            "pitch": 0.92,
+            "when": "empty",
+            "variant": 2
+          },
+          {
+            "time": 1.665,
+            "bank": "inspectTin",
+            "gain": 0.244,
+            "pitch": 1,
+            "when": "empty",
+            "variant": 1
+          },
+          {
+            "time": 1.45,
+            "bank": "inspectSwish",
+            "gain": 0.069,
+            "pitch": 0.78,
+            "when": "sealed+loaded",
+            "variant": 1
+          },
+          {
+            "time": 1.72,
+            "bank": "inspectCatch",
+            "gain": 0.386,
+            "pitch": 0.88,
+            "when": "sealed+loaded",
+            "variant": 3
+          },
+          {
+            "time": 1.725,
+            "bank": "inspectTin",
+            "gain": 0.173,
+            "pitch": 0.92,
+            "when": "sealed+loaded",
+            "variant": 2
+          },
+          {
+            "time": 1.73,
+            "bank": "iceSealed",
+            "gain": 0.244,
+            "pitch": 1,
+            "when": "sealed+ice",
+            "variant": 0,
+            "scale": "ice"
+          },
+          {
+            "time": 1.73,
+            "bank": "inspectSloshTin",
+            "gain": 0.173,
+            "pitch": 1,
+            "when": "sealed+dry+liquid",
+            "variant": 0,
+            "scale": "liquid"
+          },
+          {
+            "time": 1.2,
+            "bank": "inspectIceTin",
+            "gain": 0.173,
+            "pitch": 1,
+            "when": "open+ice",
+            "variant": 0,
+            "scale": "ice"
+          },
+          {
+            "time": 1.3,
+            "bank": "inspectSloshTin",
+            "gain": 0.122,
+            "pitch": 1,
+            "when": "open+dry+liquid",
+            "variant": 1,
+            "scale": "liquid"
+          }
+        ],
+        "catchFrequency": 6,
+        "catchZeta": 0.75,
+        "catchDipSeconds": 0.22,
+        "pivotRecenterSeconds": 0.13,
+        "openBodyViewDegrees": 12,
+        "openBodyLookSeconds": 2.3,
+        "openBodyLiftSeconds": 0.65
+      },
+      {
+        "match": "bottle.",
+        "lookSeconds": 1.1,
+        "playSeconds": 1.25,
+        "returnSeconds": 0.4,
+        "liftSeconds": 0.35,
+        "center": {
+          "x": 0.025,
+          "y": -0.025,
+          "z": 0.33
+        },
+        "settleSeconds": 0,
+        "spinBias": 1.5,
+        "tiltDegrees": 14,
+        "reverseDegrees": 20,
+        "neckDegrees": 8,
+        "windupSeconds": 0.12,
+        "spinSeconds": 0.9,
+        "catchMetres": 0.018,
+        "drawMetres": 0.02,
+        "sounds": [
+          {
+            "time": 1.3,
+            "bank": "inspectSlosh",
+            "gain": 0.109,
+            "pitch": 1,
+            "when": "liquid",
+            "variant": 3,
+            "scale": "liquid"
+          },
+          {
+            "time": 2.08,
+            "bank": "inspectSlosh",
+            "gain": 0.173,
+            "pitch": 1,
+            "when": "liquid",
+            "variant": 0,
+            "scale": "liquid"
+          },
+          {
+            "time": 2.12,
+            "bank": "inspectCatch",
+            "gain": 0.122,
+            "pitch": 0.85,
+            "when": "any",
+            "variant": 1
+          }
+        ],
+        "catchFrequency": 6,
+        "catchZeta": 0.75,
+        "catchDipSeconds": 0.22,
+        "pivotRecenterSeconds": 0.13
+      },
+      {
+        "match": "glass.",
+        "lookSeconds": 1.05,
+        "playSeconds": 1.25,
+        "returnSeconds": 0.4,
+        "liftSeconds": 0.35,
+        "center": {
+          "x": 0.02,
+          "y": -0.02,
+          "z": 0.29
+        },
+        "settleSeconds": 0,
+        "spinBias": 1.5,
+        "tiltDegrees": 20,
+        "circleMetres": 0.014,
+        "circleCount": 2,
+        "reboundDegrees": 6,
+        "raiseMetres": 0.03,
+        "lightRollDegrees": 45,
+        "breathDegrees": 3,
+        "swirlMinimumTilt": 6,
+        "drawMetres": 0.016,
+        "catchFrequency": 6,
+        "catchZeta": 0.75,
+        "catchDipSeconds": 0.22,
+        "pivotRecenterSeconds": 0.13,
+        "sounds": [
+          {
+            "time": 0.525,
+            "bank": "inspectIce",
+            "gain": 0.097,
+            "pitch": 1,
+            "when": "ice",
+            "variant": 1,
+            "scale": "ice"
+          },
+          {
+            "time": 1.12,
+            "bank": "inspectIceSwirl",
+            "gain": 0.154,
+            "pitch": 1,
+            "when": "ice+swirl",
+            "variant": 0,
+            "scale": "ice"
+          },
+          {
+            "time": 1.25,
+            "bank": "inspectSlosh",
+            "gain": 0.061,
+            "pitch": 1.15,
+            "when": "dry+liquid+swirl",
+            "variant": 3,
+            "scale": "liquid"
+          },
+          {
+            "time": 1.4,
+            "bank": "inspectIce",
+            "gain": 0.061,
+            "pitch": 1,
+            "when": "ice+lightRoll",
+            "variant": 2,
+            "scale": "ice"
+          },
+          {
+            "time": 1.95,
+            "bank": "inspectIce",
+            "gain": 0.061,
+            "pitch": 1,
+            "when": "ice+lightRoll",
+            "variant": 3,
+            "scale": "ice"
+          }
+        ]
+      },
+      {
+        "match": "tool.squeezer",
+        "lookSeconds": 1.05,
+        "playSeconds": 1.15,
+        "returnSeconds": 0.35,
+        "liftSeconds": 0.35,
+        "center": {
+          "x": 0.025,
+          "y": -0.02,
+          "z": 0.36
+        },
+        "settleSeconds": 0,
+        "spinBias": 1.5,
+        "euler": {
+          "x": 20,
+          "y": -25,
+          "z": 5
+        },
+        "wristDegrees": 25,
+        "raiseMetres": 0.012,
+        "drawMetres": 0.018,
+        "peekSeconds": 1.8,
+        "peekDegrees": 28,
+        "peekOpenStart": 0.12,
+        "peekOpenSeconds": 0.35,
+        "peekCloseStart": 1.05,
+        "peekCloseSeconds": 0.35,
+        "sounds": [
+          {
+            "time": 1.23,
+            "bank": "inspectPlastic",
+            "gain": 0.386,
+            "pitch": 1,
+            "when": "toolEmpty",
+            "variant": 0
+          },
+          {
+            "time": 1.55,
+            "bank": "inspectPlastic",
+            "gain": 0.274,
+            "pitch": 1.05,
+            "when": "toolEmpty",
+            "variant": 2
+          },
+          {
+            "time": 1.4,
+            "bank": "inspectPlastic",
+            "gain": 0.194,
+            "pitch": 0.97,
+            "when": "peek",
+            "variant": 3
+          }
+        ],
+        "catchFrequency": 6,
+        "catchZeta": 0.75,
+        "catchDipSeconds": 0.22,
+        "pivotRecenterSeconds": 0.13,
+        "firstClapSeconds": 0.18,
+        "halfOpenSeconds": 0.2,
+        "secondClapSeconds": 0.12
+      }
+    ],
+    "soundNote": "检视声音按动作相位触发。吧勺和量酒器旋转使用接触瞬态与金属模态，phase/degrees 与动画角度同步；冰夹触碰对齐夹口闭合。装冰或液体的容器在晃动时播放低音量滑动和液体声，增益按冰量、液量缩放。录音来源见 ThirdPartyNotices/provenance/。参数人为设定、未标定。"
+  },
+  "inspect": {
+    "lookEnd": 1.45,
+    "twirlEnd": 2.35,
+    "tossEnd": 3.2,
+    "liftSeconds": 0.3,
+    "returnSeconds": 0.3,
+    "center": {
+      "x": 0.03,
+      "y": -0.02,
+      "z": 0.18
+    },
+    "viewDegrees": 35,
+    "flipStart": 0.7,
+    "flipSeconds": 0.35,
+    "flipDegrees": 180,
+    "twirlDegrees": 720,
+    "twirlPivotMetres": 0.018,
+    "tossMetres": 0.05,
+    "tossFlipDegrees": 540,
+    "tossAirSeconds": 0.5,
+    "catchMetres": 0.022,
+    "sounds": [
+      {
+        "time": 0,
+        "phase": "jigger.roll",
+        "degrees": 180,
+        "bank": "microCone",
+        "gain": 0.14,
+        "pitch": 1,
+        "when": "any",
+        "variant": 0
+      },
+      {
+        "time": 0,
+        "phase": "jigger.roll",
+        "degrees": 450,
+        "bank": "microCone",
+        "gain": 0.12,
+        "pitch": 1,
+        "when": "any",
+        "variant": 1
+      },
+      {
+        "time": 0,
+        "phase": "jigger.roll",
+        "degrees": 630,
+        "bank": "microCone",
+        "gain": 0.145,
+        "pitch": 1,
+        "when": "any",
+        "variant": 2
+      },
+      {
+        "time": 0,
+        "phase": "jigger.catch",
+        "degrees": 0,
+        "bank": "microPalm",
+        "gain": 0.21,
+        "pitch": 1,
+        "when": "any",
+        "variant": 0
+      }
+    ]
+  },
+  "shake": {
+    "toss": true,
+    "tossCooldownSeconds": 3,
+    "blendSeconds": 0.2,
+    "returnSeconds": 0.3,
+    "windupSeconds": 0.14,
+    "windupDropMetres": 0,
+    "windupTiltDegrees": 18,
+    "tossSeconds": 0.48,
+    "spinDegrees": 720,
+    "spinEndRate": 0.3,
+    "spinTiltDegrees": 12,
+    "apex": {
+      "x": 0.06,
+      "y": 0.09,
+      "z": 0.4
+    },
+    "catchPoint": {
+      "x": 0.11,
+      "y": -0.03,
+      "z": 0.36
+    },
+    "catchFrequency": 4,
+    "catchZeta": 0.7,
+    "chamberSeconds": 0.18,
+    "stroke": {
+      "x": -0.55,
+      "y": 0.48,
+      "z": 0.68
+    },
+    "capDirection": {
+      "x": -0.6,
+      "y": 0.6,
+      "z": 0.5
+    },
+    "strokeMetres": 0.075,
+    "strokeHarmonic": 0.2,
+    "arcMetres": 0.028,
+    "arcHarmonicMetres": 0.014,
+    "wristDegrees": 16,
+    "wristLag": 0.35,
+    "wristHarmonicDegrees": 5,
+    "twistDegrees": 15,
+    "twistLag": 0.25,
+    "swayDegrees": 10,
+    "minHz": 1.2,
+    "maxHz": 4.5,
+    "defaultHz": 3.2,
+    "lockGain": 0.7,
+    "lockSeconds": 0.12,
+    "reversalPixels": 40,
+    "smoothingSeconds": 0.03,
+    "minHalfSeconds": 0.08,
+    "idleSeconds": 0.4,
+    "minAmplitude": 0.35,
+    "amplitudeFrequency": 3,
+    "amplitudeZeta": 1,
+    "slamLag": 0.3,
+    "slamMetres": 0.012,
+    "slamHz": 28,
+    "slamSeconds": 0.06
+  }
+}

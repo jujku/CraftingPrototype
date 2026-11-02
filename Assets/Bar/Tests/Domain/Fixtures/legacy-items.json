@@ -1,0 +1,840 @@
+{
+  "schema": "bar.items.1",
+  "note": "尺寸、热参数、柠檬出汁与流量均为待试玩的参考值；原料只引用现有核心ID，不复制成分。复合物品的parts只列永久部件，隔冰器与上盖作为独立物品生成。",
+  "items": [
+    {
+      "id": "bottle.gin",
+      "displayName": "金酒瓶",
+      "type": "Bottle",
+      "kind": 1,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "bottle.gin",
+      "size": {
+        "widthCm": 8,
+        "heightCm": 28,
+        "depthCm": 8
+      },
+      "capacityMl": 750,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "spirit",
+      "initiallyOpen": true,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "PourLip",
+        "Cap"
+      ]
+    },
+    {
+      "id": "bottle.syrup",
+      "displayName": "糖浆瓶",
+      "type": "Bottle",
+      "kind": 1,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "bottle.syrup",
+      "size": {
+        "widthCm": 7,
+        "heightCm": 25,
+        "depthCm": 7
+      },
+      "capacityMl": 500,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "syrup",
+      "initiallyOpen": true,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "PourLip"
+      ]
+    },
+    {
+      "id": "bottle.soda",
+      "displayName": "苏打水瓶",
+      "type": "Bottle",
+      "kind": 1,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "bottle.soda",
+      "size": {
+        "widthCm": 6,
+        "heightCm": 20,
+        "depthCm": 6
+      },
+      "capacityMl": 325,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "soda",
+      "initiallyOpen": true,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "PourLip",
+        "Cap"
+      ]
+    },
+    {
+      "id": "bottle.tonic",
+      "displayName": "汤力水瓶",
+      "type": "Bottle",
+      "kind": 1,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "bottle.tonic",
+      "size": {
+        "widthCm": 6,
+        "heightCm": 20,
+        "depthCm": 6
+      },
+      "capacityMl": 325,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "tonic",
+      "initiallyOpen": true,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "PourLip",
+        "Cap"
+      ]
+    },
+    {
+      "id": "shaker.body",
+      "displayName": "雪克壶壶身",
+      "type": "ShakerBody",
+      "kind": 0,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "shaker.body",
+      "size": {
+        "widthCm": 9,
+        "heightCm": 16,
+        "depthCm": 9
+      },
+      "capacityMl": 500,
+      "markingsMl": [],
+      "material": 1,
+      "thermal": {
+        "massGrams": 120,
+        "specificHeat": 0.5,
+        "liquidK": 8,
+        "environmentK": 0.2
+      },
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_L",
+        "Grip_R",
+        "InnerCavity",
+        "LiquidVolume",
+        "IceArea",
+        "PourLip",
+        "Slot_Strainer"
+      ]
+    },
+    {
+      "id": "shaker.cobbler",
+      "displayName": "三段式雪克壶",
+      "type": "CobblerShaker",
+      "kind": 2,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": [
+          "shaker.shake"
+        ]
+      },
+      "prefabKey": "shaker.cobbler",
+      "size": {
+        "widthCm": 9,
+        "heightCm": 22,
+        "depthCm": 9
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [
+        "shaker.body"
+      ],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_L",
+        "Grip_R"
+      ]
+    },
+    {
+      "id": "shaker.strainer",
+      "displayName": "隔冰器",
+      "type": "ShakerStrainer",
+      "kind": 3,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "shaker.strainer",
+      "size": {
+        "widthCm": 9,
+        "heightCm": 4,
+        "depthCm": 9
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [
+        "shaker.cobbler"
+      ],
+      "anchors": [
+        "Slot_Cap",
+        "PourLip"
+      ]
+    },
+    {
+      "id": "shaker.cap",
+      "displayName": "雪克壶上盖",
+      "type": "ShakerCap",
+      "kind": 3,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "shaker.cap",
+      "size": {
+        "widthCm": 4,
+        "heightCm": 3,
+        "depthCm": 4
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [
+        "shaker.cobbler"
+      ],
+      "anchors": []
+    },
+    {
+      "id": "jigger.cup30",
+      "displayName": "量酒器30ml端",
+      "type": "JiggerCup",
+      "kind": 0,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "jigger.cup30",
+      "size": {
+        "widthCm": 4,
+        "heightCm": 4,
+        "depthCm": 4
+      },
+      "capacityMl": 30,
+      "markingsMl": [
+        10,
+        15,
+        20,
+        30
+      ],
+      "material": 1,
+      "thermal": {
+        "massGrams": 20,
+        "specificHeat": 0.5,
+        "liquidK": 3,
+        "environmentK": 0.1
+      },
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "InnerCavity",
+        "LiquidVolume",
+        "PourLip"
+      ]
+    },
+    {
+      "id": "jigger.cup45",
+      "displayName": "量酒器45ml端",
+      "type": "JiggerCup",
+      "kind": 0,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "jigger.cup45",
+      "size": {
+        "widthCm": 4.5,
+        "heightCm": 5,
+        "depthCm": 4.5
+      },
+      "capacityMl": 45,
+      "markingsMl": [
+        15,
+        30,
+        45
+      ],
+      "material": 1,
+      "thermal": {
+        "massGrams": 25,
+        "specificHeat": 0.5,
+        "liquidK": 3,
+        "environmentK": 0.1
+      },
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "InnerCavity",
+        "LiquidVolume",
+        "PourLip"
+      ]
+    },
+    {
+      "id": "jigger.dual",
+      "displayName": "双头量酒器",
+      "type": "Jigger",
+      "kind": 2,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "jigger.dual",
+      "size": {
+        "widthCm": 4.5,
+        "heightCm": 9,
+        "depthCm": 4.5
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [
+        "jigger.cup30",
+        "jigger.cup45"
+      ],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_L"
+      ]
+    },
+    {
+      "id": "glass.coupe",
+      "displayName": "Coupe杯",
+      "type": "Glass",
+      "kind": 0,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "glass.coupe",
+      "size": {
+        "widthCm": 10,
+        "heightCm": 15,
+        "depthCm": 10
+      },
+      "capacityMl": 180,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": {
+        "massGrams": 180,
+        "specificHeat": 0.84,
+        "liquidK": 6,
+        "environmentK": 0.2
+      },
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_L",
+        "InnerCavity",
+        "LiquidVolume",
+        "IceArea",
+        "PourLip"
+      ]
+    },
+    {
+      "id": "glass.highball",
+      "displayName": "Highball杯",
+      "type": "Glass",
+      "kind": 0,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "glass.highball",
+      "size": {
+        "widthCm": 7,
+        "heightCm": 15,
+        "depthCm": 7
+      },
+      "capacityMl": 350,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": {
+        "massGrams": 220,
+        "specificHeat": 0.84,
+        "liquidK": 6,
+        "environmentK": 0.2
+      },
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_L",
+        "InnerCavity",
+        "LiquidVolume",
+        "IceArea",
+        "PourLip"
+      ]
+    },
+    {
+      "id": "tool.spoon",
+      "displayName": "吧勺",
+      "type": "BarSpoon",
+      "kind": 4,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "tool.spoon",
+      "size": {
+        "widthCm": 3,
+        "heightCm": 30,
+        "depthCm": 3
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "Tip"
+      ]
+    },
+    {
+      "id": "tool.scoop",
+      "displayName": "冰铲",
+      "type": "IceScoop",
+      "kind": 4,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "tool.scoop",
+      "size": {
+        "widthCm": 7,
+        "heightCm": 23,
+        "depthCm": 5
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 3,
+      "maxCubes": 5,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "HoldPoint"
+      ]
+    },
+    {
+      "id": "tool.tongs",
+      "displayName": "冰夹",
+      "type": "IceTongs",
+      "kind": 4,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "tool.tongs",
+      "size": {
+        "widthCm": 3,
+        "heightCm": 18,
+        "depthCm": 3
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "HoldPoint"
+      ]
+    },
+    {
+      "id": "tool.squeezer",
+      "displayName": "手压榨汁器",
+      "type": "Squeezer",
+      "kind": 4,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "tool.squeezer",
+      "size": {
+        "widthCm": 8,
+        "heightCm": 22,
+        "depthCm": 6
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_R",
+        "LoadSlot",
+        "Outlet"
+      ]
+    },
+    {
+      "id": "produce.lemon_half",
+      "displayName": "半颗柠檬",
+      "type": "LemonHalf",
+      "kind": 5,
+      "handRule": {
+        "preferredHand": 0,
+        "allowedHands": 3,
+        "twoHandedActions": []
+      },
+      "prefabKey": "produce.lemon_half",
+      "size": {
+        "widthCm": 6,
+        "heightCm": 3,
+        "depthCm": 6
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "lemon",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 20,
+      "yieldMaxMl": 30,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Grip_L"
+      ]
+    },
+    {
+      "id": "fixture.icebin",
+      "displayName": "冰桶",
+      "type": "IceBin",
+      "kind": 6,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 0,
+        "twoHandedActions": []
+      },
+      "prefabKey": "fixture.icebin",
+      "size": {
+        "widthCm": 25,
+        "heightCm": 25,
+        "depthCm": 25
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 200,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Surface"
+      ]
+    },
+    {
+      "id": "fixture.sink",
+      "displayName": "水槽",
+      "type": "Sink",
+      "kind": 6,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 0,
+        "twoHandedActions": []
+      },
+      "prefabKey": "fixture.sink",
+      "size": {
+        "widthCm": 45,
+        "heightCm": 20,
+        "depthCm": 35
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Surface"
+      ]
+    },
+    {
+      "id": "fixture.servemat",
+      "displayName": "出杯垫",
+      "type": "ServeMat",
+      "kind": 6,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 0,
+        "twoHandedActions": []
+      },
+      "prefabKey": "fixture.servemat",
+      "size": {
+        "widthCm": 40,
+        "heightCm": 1,
+        "depthCm": 20
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Surface"
+      ]
+    },
+    {
+      "id": "fixture.board",
+      "displayName": "砧板",
+      "type": "CuttingBoard",
+      "kind": 6,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 0,
+        "twoHandedActions": []
+      },
+      "prefabKey": "fixture.board",
+      "size": {
+        "widthCm": 35,
+        "heightCm": 2,
+        "depthCm": 25
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Surface"
+      ]
+    },
+    {
+      "id": "fixture.counter",
+      "displayName": "吧台",
+      "type": "BarCounter",
+      "kind": 6,
+      "handRule": {
+        "preferredHand": 1,
+        "allowedHands": 0,
+        "twoHandedActions": []
+      },
+      "prefabKey": "fixture.counter",
+      "size": {
+        "widthCm": 200,
+        "heightCm": 110,
+        "depthCm": 65
+      },
+      "capacityMl": 0,
+      "markingsMl": [],
+      "material": 0,
+      "thermal": null,
+      "ingredientId": "",
+      "initiallyOpen": false,
+      "minCubes": 0,
+      "maxCubes": 0,
+      "stockCubes": 0,
+      "yieldMinMl": 0,
+      "yieldMaxMl": 0,
+      "parts": [],
+      "fitsOn": [],
+      "anchors": [
+        "Surface"
+      ]
+    }
+  ]
+}

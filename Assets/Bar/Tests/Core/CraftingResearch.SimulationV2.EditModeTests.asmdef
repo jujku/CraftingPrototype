@@ -1,0 +1,14 @@
+{
+  "name": "CraftingResearch.SimulationV2.EditModeTests",
+  "rootNamespace": "CraftingResearch.TestsV2",
+  "references": ["CraftingResearch.SimulationV2", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

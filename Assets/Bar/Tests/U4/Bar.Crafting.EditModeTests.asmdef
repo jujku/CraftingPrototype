@@ -1,0 +1,23 @@
+{
+  "name": "Bar.Crafting.EditModeTests",
+  "references": [
+    "Bar.Unity",
+    "Bar.Domain",
+    "Bar.Data",
+    "CraftingResearch.SimulationV2",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Bar.Logging"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

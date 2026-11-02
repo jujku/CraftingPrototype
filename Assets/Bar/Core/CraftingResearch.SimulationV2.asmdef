@@ -1,0 +1,14 @@
+{
+  "name": "CraftingResearch.SimulationV2",
+  "rootNamespace": "CraftingResearch.CoreV2",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

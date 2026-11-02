@@ -1,0 +1,45 @@
+{
+  "note": "Original offline synthesized shoe contact Foley; uncalibrated audition values, not field recordings.",
+  "banks": [
+    {
+      "id": "rubberStep",
+      "paths": [
+        "BarAudio/Locomotion/rubberStep-0",
+        "BarAudio/Locomotion/rubberStep-1",
+        "BarAudio/Locomotion/rubberStep-2"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "rubberShuffle",
+      "paths": [
+        "BarAudio/Locomotion/rubberShuffle-0",
+        "BarAudio/Locomotion/rubberShuffle-1",
+        "BarAudio/Locomotion/rubberShuffle-2"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "woodStep",
+      "paths": [
+        "BarAudio/Locomotion/woodStep-0",
+        "BarAudio/Locomotion/woodStep-1",
+        "BarAudio/Locomotion/woodStep-2"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "woodShuffle",
+      "paths": [
+        "BarAudio/Locomotion/woodShuffle-0",
+        "BarAudio/Locomotion/woodShuffle-1",
+        "BarAudio/Locomotion/woodShuffle-2"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    }
+  ]
+}

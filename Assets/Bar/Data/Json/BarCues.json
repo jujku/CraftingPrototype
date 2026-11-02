@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "uncalibrated": true,
+  "frost": [
+    {
+      "x": -12,
+      "y": 1
+    },
+    {
+      "x": -5,
+      "y": 0.8
+    },
+    {
+      "x": 0,
+      "y": 0.35
+    },
+    {
+      "x": 5,
+      "y": 0
+    }
+  ],
+  "condensation": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 3,
+      "y": 0
+    },
+    {
+      "x": 12,
+      "y": 0.65
+    },
+    {
+      "x": 24,
+      "y": 1
+    }
+  ],
+  "bubbleCount": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 0.05,
+      "y": 0
+    },
+    {
+      "x": 1,
+      "y": 12
+    },
+    {
+      "x": 3,
+      "y": 30
+    },
+    {
+      "x": 6,
+      "y": 50
+    }
+  ],
+  "bubbleSpeed": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 0.05,
+      "y": 0
+    },
+    {
+      "x": 1,
+      "y": 0.012
+    },
+    {
+      "x": 6,
+      "y": 0.045
+    }
+  ],
+  "iceSound": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 0.1,
+      "y": 0
+    },
+    {
+      "x": 1,
+      "y": 0.22
+    },
+    {
+      "x": 5,
+      "y": 0.65
+    },
+    {
+      "x": 10,
+      "y": 0.85
+    }
+  ],
+  "dilution": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 10,
+      "y": 0.2
+    },
+    {
+      "x": 30,
+      "y": 0.7
+    },
+    {
+      "x": 50,
+      "y": 1
+    }
+  ],
+  "liquidBaseRgba": [
+    0.82,
+    0.82,
+    0.48,
+    0.24
+  ],
+  "liquidDilutedRgba": [
+    0.94,
+    0.98,
+    0.86,
+    0.12
+  ],
+  "bubbleRadius": 0.0012,
+  "bubbleMax": 50,
+  "soundHoldSeconds": 0.15,
+  "soundIntervalSeconds": 0.16,
+  "soundMaxDistance": 2.5,
+  "frostOpacity": 0.7,
+  "condensationOpacity": 0.55,
+  "sampleInterval": 0.1,
+  "sampleThreshold": 0.2,
+  "visual": {
+    "springFrequency": 12,
+    "damping": 0.22,
+    "syrupDamping": 0.35,
+    "maxTilt": 35,
+    "accelerationGain": 0.02,
+    "meniscus": 0.002,
+    "foamBand": 0.003,
+    "minimumPathCm": 1.5,
+    "maximumPathCm": 6.5,
+    "scatteringDistanceCm": 1.5,
+    "scatteringGain": 0.8,
+    "gravity": 9.81,
+    "accelerationClamp": 25,
+    "accelerationFilter": 12,
+    "wallThickness": 0.03,
+    "contactOffset": 0.004,
+    "depenetration": 1.5,
+    "sleep": 0.002,
+    "dryDrag": 0.1,
+    "wetDrag": 3.5,
+    "dryAngular": 0.05,
+    "wetAngular": 2.5,
+    "spoonRadius": 0.004,
+    "vortex": 0.12,
+    "seedJitter": 0,
+    "removeScale": 0.12,
+    "wallCount": 16,
+    "solverIterations": 10,
+    "maxIce": 20,
+    "streamSegments": 12,
+    "streamSides": 8,
+    "physicsStep": 0.016666666666666666,
+    "shakeStep": 0.008333333333333333,
+    "initialStreamSpeed": 0.5,
+    "streamRadiusScale": 1,
+    "splashRate": 18,
+    "rippleSeconds": 0.5,
+    "iceEntrySeconds": 0.22,
+    "iceEntryArc": 0.06,
+    "tiltGain": 2,
+    "iceSide": 0.037
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Bar.Domain",
+  "rootNamespace": "Bar.Domain",
+  "references": [
+    "Bar.Data"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

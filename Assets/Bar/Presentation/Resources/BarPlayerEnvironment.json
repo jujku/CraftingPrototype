@@ -1,0 +1,11 @@
+{
+  "note": "碰撞体尺寸、步高和重力均为显示/移动用人为设定、未标定；房间障碍来自场景实际网格，不限制 X/Z 活动范围。",
+  "radius": 0.18,
+  "minimumHeight": 1.6,
+  "headMargin": 0.12,
+  "skin": 0.015,
+  "stepOffset": 0.12,
+  "gravity": 9.81,
+  "heldLayer": "BarHeld",
+  "heldLiquidLayer": "BarHeldLiquid"
+}

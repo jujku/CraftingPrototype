@@ -1,0 +1,574 @@
+[
+  {
+    "file": "ice-0.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactGlass_light_000.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.28,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "69b149a6af0ada64c742194b3d30d7227ff64c88347a8f4caca7c737c168ac34"
+  },
+  {
+    "file": "ice-1.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactGlass_light_001.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.28,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "89d77dac43b07ac4cc0ec89ef2c04d91d1a08d73be7caab54247935656efe066"
+  },
+  {
+    "file": "ice-2.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactGlass_light_002.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.28,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "ee9280145f070cdc9f15b3d7109f8442e7707c9a75ff91f1ea3097e2b9193a85"
+  },
+  {
+    "file": "ice-3.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactGlass_light_003.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.28,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "4395f71a2d2148397e038ee137c8a8e07c8908257b772848fff557761c411253"
+  },
+  {
+    "file": "iceHeavy-0.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.2,
+      "duration": 0.4,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "1254359bbec5ff1cdfeb14e8e17526cceb36383d96e2382b47d1bfcec2cb797f"
+  },
+  {
+    "file": "iceHeavy-1.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.2,
+      "duration": 0.4,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "31247ce70dadaf1ed584dfd710c9be8b2e9206a3bc0e9eac0d8efa4d8147e635"
+  },
+  {
+    "file": "iceHeavy-2.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.2,
+      "duration": 0.4,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "4a55ffda9323844b22b28b1090665829007454bf80c318574c8ffcb7f1069da3"
+  },
+  {
+    "file": "iceHeavy-3.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.2,
+      "duration": 0.4,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "3dd2b3b8694441ad1dd193d4a3ddd005ce3716d9c810e987042b1ba2cc4b52d9"
+  },
+  {
+    "file": "metal-0.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_light_000.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "1aefbe42146a9e76b24053ec8a59fcab1d29e4b82545dd4d73fa70d756879a7b"
+  },
+  {
+    "file": "metal-1.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_light_001.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "b25b9e901d8b4cb54cc5fd0c02cb66b13b35fa17b3e205fd1b90375342d9b2eb"
+  },
+  {
+    "file": "metal-2.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_light_002.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "5b4775d5695d7912bd1e238c2a840d051eb08d4fd5d89cb4e7809d539efc741e"
+  },
+  {
+    "file": "metal-3.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_light_003.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "a11edf1f55771c66f2dbc93106aa864d7bf76ce4c924d14529bb2af36b5dbea0"
+  },
+  {
+    "file": "lid-0.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_medium_000.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.35,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "8f9f40cea8e806b0a7350ed647c55937933d23dfd933259fd768a8e24a81d3db"
+  },
+  {
+    "file": "lid-1.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_medium_001.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.35,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "573bb4a01e9da688efa4550cf87669ac230951a6eee8282ce5878c4b0ea54bec"
+  },
+  {
+    "file": "lid-2.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_medium_002.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.35,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "73c2db0cca442ad315af57b6ad2c4f09096974cca39992dfe151fa5b91d010cd"
+  },
+  {
+    "file": "lid-3.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactMetal_medium_003.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.35,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "da43164c947a971b65a651f061db04433684418d001237342e3a0e4f853c1d90"
+  },
+  {
+    "file": "place-0.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactWood_medium_000.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "21f26035d2139c4a87c70a6a09d1ddeb2409fb27e1206bcb541794d5208d18c5"
+  },
+  {
+    "file": "place-1.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactWood_medium_001.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "0097548617275fc2ab91f2dec9e0d159c6e94c73b9905316faf67a12f1fea2ab"
+  },
+  {
+    "file": "place-2.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactWood_medium_002.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "56162b53090833677bf3cb545affda0c780ccec89aa9426a14c6c18f781fc8f6"
+  },
+  {
+    "file": "place-3.wav",
+    "sourceFile": "Sources\\kenney-impact\\Audio\\impactWood_medium_003.ogg",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0,
+      "duration": 0.3,
+      "lowpassHz": null,
+      "leadingSilentSamples": 0
+    },
+    "sha256": "75ad1f88a9dda5af52d4e158187c200bfa6f74d6adb0f1bf0196888e887fa127"
+  },
+  {
+    "file": "shakerBright-0.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "e2193dae175207dd83002306aa27105aa75c3bc7902335bc71960fd07b5c4b5f"
+  },
+  {
+    "file": "shakerBright-1.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "2df6fe2d8f679436dc45718c9d880fe25fa9af9f66f5ae04da16ae3a34742048"
+  },
+  {
+    "file": "shakerBright-2.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "c45b2508dc8336b4b1b8b780b121be10c1b3541671c767f377e330ca46ec7958"
+  },
+  {
+    "file": "shakerBright-3.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "413fcc350b93e4944fdfa771c416ac38fa0f090241004fa606d8b859eae1c642"
+  },
+  {
+    "file": "shakerDull-0.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": 1000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "7776105833207f08021eb9053bad41b0ad87e98a271b867a6921c0c0318abb44"
+  },
+  {
+    "file": "shakerDull-1.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": 1000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "e61e734404d52d949c1c3e752a5466cf477ce3a6a30eef8fb4dcd8b1a7d173aa"
+  },
+  {
+    "file": "shakerDull-2.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": 1000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "a19613c9cca007c4cd5b42cda0ba9578bc9f6395b08a7ec492aac68b14204a56"
+  },
+  {
+    "file": "shakerDull-3.wav",
+    "sourceFile": "Sources\\shaker2.mp3",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.25,
+      "duration": 2,
+      "lowpassHz": 1000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "b466ce2dee49e84b9deccce00d087b7da2f89abe3f5181d2013bc1ac558bdf03"
+  },
+  {
+    "file": "pourThick-0.wav",
+    "sourceFile": "Sources\\pour.mp3",
+    "sourcePage": "https://freesound.org/people/Rudmer_Rotteveel/sounds/699581/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.4,
+      "duration": 1.5,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "28a8b6886e35997625caa2731392b9e480398ce3d1fd21eafa8a4435392318fc"
+  },
+  {
+    "file": "pourThick-1.wav",
+    "sourceFile": "Sources\\pour.mp3",
+    "sourcePage": "https://freesound.org/people/Rudmer_Rotteveel/sounds/699581/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.4,
+      "duration": 1.5,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "59cf1fb954ff3756c793356b52d1c5767b27ef6b619cd47064a3684bc7efa76c"
+  },
+  {
+    "file": "pourThick-2.wav",
+    "sourceFile": "Sources\\pour.mp3",
+    "sourcePage": "https://freesound.org/people/Rudmer_Rotteveel/sounds/699581/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.4,
+      "duration": 1.5,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "3ee42a1cf4fa1237f40962bf9956614ea2ccaf7406d40acdf06db485669ca9eb"
+  },
+  {
+    "file": "pourThick-3.wav",
+    "sourceFile": "Sources\\pour.mp3",
+    "sourcePage": "https://freesound.org/people/Rudmer_Rotteveel/sounds/699581/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.4,
+      "duration": 1.5,
+      "lowpassHz": null,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "bd1f43542f62fd80ffe857157386e537c7df03ec0432530fb174eb1aea0d2967"
+  },
+  {
+    "file": "stir-0.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 1.2,
+      "duration": 1.5,
+      "lowpassHz": 2200,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "cdf35629b2b332e9d1685a7728dcf0e3a9745fd22b8410d745aa26f47d4099c5"
+  },
+  {
+    "file": "stir-1.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 1.2,
+      "duration": 1.5,
+      "lowpassHz": 2200,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "1ec47eb23ebe4f18f584d208b1ef2f000ba04ee9c9b4a178d248549c4adc0f36"
+  },
+  {
+    "file": "stir-2.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 1.2,
+      "duration": 1.5,
+      "lowpassHz": 2200,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "6c4dbf3a0e3af1476a399e1e104e4791c5c9c4c40789dba1424ccf33a6efdadd"
+  },
+  {
+    "file": "stir-3.wav",
+    "sourceFile": "Sources\\ice.mp3",
+    "sourcePage": "https://freesound.org/people/syntheffects/sounds/563285/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 1.2,
+      "duration": 1.5,
+      "lowpassHz": 2200,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "b771e24973a0ab9e16e12151c170629dcb841bd84618cd5a496845d400579721"
+  },
+  {
+    "file": "press-0.wav",
+    "sourceFile": "Sources\\shaker.mp3",
+    "sourcePage": "https://freesound.org/people/Oldome/sounds/870390/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.6,
+      "duration": 1.2,
+      "lowpassHz": 700,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "4de1d76dafdd966eed94f64565ca4f260c831d3aaae247f927ce453c40e44c90"
+  },
+  {
+    "file": "press-1.wav",
+    "sourceFile": "Sources\\shaker.mp3",
+    "sourcePage": "https://freesound.org/people/Oldome/sounds/870390/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.6,
+      "duration": 1.2,
+      "lowpassHz": 700,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "fc35636c82284de56f702976f838579bc730d1568825b599d735d83936d909b9"
+  },
+  {
+    "file": "press-2.wav",
+    "sourceFile": "Sources\\shaker.mp3",
+    "sourcePage": "https://freesound.org/people/Oldome/sounds/870390/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.6,
+      "duration": 1.2,
+      "lowpassHz": 700,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "953a078f460cb681a9021f51f5bf58ac6ed3bfb6eb0cb6c4716b4a8bcf24f573"
+  },
+  {
+    "file": "press-3.wav",
+    "sourceFile": "Sources\\shaker.mp3",
+    "sourcePage": "https://freesound.org/people/Oldome/sounds/870390/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.6,
+      "duration": 1.2,
+      "lowpassHz": 700,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "fcfb71199cb6e83cfd2bdb02ce14f0818e2453c17fa27a778283e182594868b9"
+  },
+  {
+    "file": "soda-0.wav",
+    "sourceFile": "Sources\\soda.mp3",
+    "sourcePage": "https://freesound.org/people/Sadiquecat/sounds/789031/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.1,
+      "duration": 1.2,
+      "lowpassHz": 7000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "92b0ab8677a6bebf4e65b2ea275f531db17df73c381e01cbff6e3b34a36277bd"
+  },
+  {
+    "file": "soda-1.wav",
+    "sourceFile": "Sources\\soda.mp3",
+    "sourcePage": "https://freesound.org/people/Sadiquecat/sounds/789031/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.1,
+      "duration": 1.2,
+      "lowpassHz": 7000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "c0cf479fe329893ceebfb4011e295924584e7aecbabb997b5307356523f75f6f"
+  },
+  {
+    "file": "soda-2.wav",
+    "sourceFile": "Sources\\soda.mp3",
+    "sourcePage": "https://freesound.org/people/Sadiquecat/sounds/789031/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.1,
+      "duration": 1.2,
+      "lowpassHz": 7000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "60101ac996503ba7348134f4fae24dfb047f89654599cb33dfee83b58bee1523"
+  },
+  {
+    "file": "soda-3.wav",
+    "sourceFile": "Sources\\soda.mp3",
+    "sourcePage": "https://freesound.org/people/Sadiquecat/sounds/789031/",
+    "license": "CC0-1.0",
+    "processing": {
+      "start": 0.1,
+      "duration": 1.2,
+      "lowpassHz": 7000,
+      "leadingSilentSamples": 1024
+    },
+    "sha256": "f0204e637907da5c50a840d4064282ff8ba90ac0248eeb41f9f35016e06278de"
+  }
+]

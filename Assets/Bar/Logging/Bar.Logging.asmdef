@@ -1,0 +1,9 @@
+{
+  "name": "Bar.Logging",
+  "rootNamespace": "Bar.Logging",
+  "references": [
+    "Bar.Domain",
+    "CraftingResearch.SimulationV2"
+  ],
+  "noEngineReferences": true
+}

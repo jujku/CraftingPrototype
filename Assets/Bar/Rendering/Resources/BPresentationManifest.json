@@ -1,0 +1,638 @@
+{
+  "version": 2,
+  "note": "Q表现资源与着色器哈希；许可见 Tools/Visual/Q/LICENSES.md。人为设定、未标定。禁用press/pourThin已移出Resources。",
+  "assets": [
+    {
+      "path": "Assets/Bar/Rendering/BottleLiquidSurface.shader",
+      "sha256": "2b8fbc02a4d5caa00022b23023c64e29e65c45b32d96748a4b136d8a09965f4f"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Bubble.shader",
+      "sha256": "f51d22a40ca6696800e581cbd76828c1e2bff71b347224ce4c621127d923912e"
+    },
+    {
+      "path": "Assets/Bar/Rendering/CueLiquid.shader",
+      "sha256": "9576a56fc2fa663076828c4e78446d592252bdc8e7473329ffb8201044a73905"
+    },
+    {
+      "path": "Assets/Bar/Rendering/CueSurface.shader",
+      "sha256": "3ea0119370d6065e622684d88199ef2aa0a13d4c818ad9d5fea648a4c4e4be65"
+    },
+    {
+      "path": "Assets/Bar/Rendering/FrostMetal.shader",
+      "sha256": "dc5a34ee67159d59092ae9a3f9256b92704398c4dcb96688965a8cb370f689a8"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Glass.shader",
+      "sha256": "7ba3bee20242577c432f8cb13cab80452d783b575614c3871d84d4077117a7fa"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Ice.shader",
+      "sha256": "f4c3ebd98bc2e24cadf359dc3262d3f0a8ba554932485a06b4d9911b7e94fe9e"
+    },
+    {
+      "path": "Assets/Bar/Rendering/IceTransmission.shader",
+      "sha256": "8a05abc7d23b4773e07bfe9eb0277de9fbeb8e58f438b2dee1065344f4012359"
+    },
+    {
+      "path": "Assets/Bar/Rendering/PourRibbon.shader",
+      "sha256": "35ebc2708bfb9d2b913cde2964d1fae3e3a74279b6010a837121a5bf81c730b9"
+    },
+    {
+      "path": "Assets/Bar/Rendering/PresentationLighting.hlsl",
+      "sha256": "c645068513d006d5e1d7c0404e4a0acec5306adda867c9d8fe40bda3c15799d8"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-0.wav",
+      "sha256": "75ab0a17cd90ef78b697ab01e6b642eea207e7158f075b02d6e564bc6c7e65fd"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-1.wav",
+      "sha256": "8e01bb7760d8449fb16554444c60b3d625fd315080133a1862b94fef2d5f8024"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-2.wav",
+      "sha256": "9b6cafa9c265307308a50e4ce83bcafa8996f8d5eedf8f1b127b425c5b785d7e"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-3.wav",
+      "sha256": "32f110300b6f3b6fd3ae0ff667b6e61e1dfdee1eae734af792b4d3b4ded9ef85"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-4.wav",
+      "sha256": "6eec4aca5fe996756841607b227ae3be65fd80fa025e9b03380b81b085151210"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-5.wav",
+      "sha256": "42322467e1f4ee0fe6a8f5c0aeac8cd73be31890d27937049bb7de66d65dde25"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-6.wav",
+      "sha256": "c22039314187cac8eb71b1e4ab393bdb644546b5c344bbfec7889897a17eae3b"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-7.wav",
+      "sha256": "667ecfe8bb412baf92237137a7fc2cb286ad6975a575bf0839c7080676ab094b"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-8.wav",
+      "sha256": "ca47060a1e02834b246c5ffba5e3ddf4168ce1d013fc04baa451eb41cbf78198"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/bubble-9.wav",
+      "sha256": "291c3bf6bb67cadce878925aba905b5f97b9faf9526924cae82e150700fd65bd"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/gulp-0.wav",
+      "sha256": "7d0678cdde983181e0aaf149d93935ce264bb65fb4668a41dcfef7bfe3c3d8ce"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/gulp-1.wav",
+      "sha256": "155d2cc49c4078035ab512d9ab737fadeb64a6a21282e5f2ac757786ee4209ad"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/gulp-2.wav",
+      "sha256": "8f5f3b9021e656f6ba290049d50715cc306f3c95db7ea1d0309d23c1389cef50"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/gulp-3.wav",
+      "sha256": "4b1e6f16b59154b74b8df5553a38e6d9c0e8fb58177e1f616cec778cf084d482"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/ice-0.wav",
+      "sha256": "69b149a6af0ada64c742194b3d30d7227ff64c88347a8f4caca7c737c168ac34"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/ice-1.wav",
+      "sha256": "89d77dac43b07ac4cc0ec89ef2c04d91d1a08d73be7caab54247935656efe066"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/ice-2.wav",
+      "sha256": "ee9280145f070cdc9f15b3d7109f8442e7707c9a75ff91f1ea3097e2b9193a85"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/ice-3.wav",
+      "sha256": "4395f71a2d2148397e038ee137c8a8e07c8908257b772848fff557761c411253"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/iceHeavy-0.wav",
+      "sha256": "1254359bbec5ff1cdfeb14e8e17526cceb36383d96e2382b47d1bfcec2cb797f"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/iceHeavy-1.wav",
+      "sha256": "31247ce70dadaf1ed584dfd710c9be8b2e9206a3bc0e9eac0d8efa4d8147e635"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/iceHeavy-2.wav",
+      "sha256": "4a55ffda9323844b22b28b1090665829007454bf80c318574c8ffcb7f1069da3"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/iceHeavy-3.wav",
+      "sha256": "3dd2b3b8694441ad1dd193d4a3ddd005ce3716d9c810e987042b1ba2cc4b52d9"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/lid-0.wav",
+      "sha256": "8f9f40cea8e806b0a7350ed647c55937933d23dfd933259fd768a8e24a81d3db"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/lid-1.wav",
+      "sha256": "573bb4a01e9da688efa4550cf87669ac230951a6eee8282ce5878c4b0ea54bec"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/lid-2.wav",
+      "sha256": "73c2db0cca442ad315af57b6ad2c4f09096974cca39992dfe151fa5b91d010cd"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/lid-3.wav",
+      "sha256": "da43164c947a971b65a651f061db04433684418d001237342e3a0e4f853c1d90"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/metal-0.wav",
+      "sha256": "1aefbe42146a9e76b24053ec8a59fcab1d29e4b82545dd4d73fa70d756879a7b"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/metal-1.wav",
+      "sha256": "b25b9e901d8b4cb54cc5fd0c02cb66b13b35fa17b3e205fd1b90375342d9b2eb"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/metal-2.wav",
+      "sha256": "5b4775d5695d7912bd1e238c2a840d051eb08d4fd5d89cb4e7809d539efc741e"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/metal-3.wav",
+      "sha256": "a11edf1f55771c66f2dbc93106aa864d7bf76ce4c924d14529bb2af36b5dbea0"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/place-0.wav",
+      "sha256": "21f26035d2139c4a87c70a6a09d1ddeb2409fb27e1206bcb541794d5208d18c5"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/place-1.wav",
+      "sha256": "0097548617275fc2ab91f2dec9e0d159c6e94c73b9905316faf67a12f1fea2ab"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/place-2.wav",
+      "sha256": "56162b53090833677bf3cb545affda0c780ccec89aa9426a14c6c18f781fc8f6"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/place-3.wav",
+      "sha256": "75ad1f88a9dda5af52d4e158187c200bfa6f74d6adb0f1bf0196888e887fa127"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourGentle-0.wav",
+      "sha256": "1016aa72132c8d381fce3d6c16eb0991f15b64f140cf4cc41945bc4b17167b94"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourGentle-1.wav",
+      "sha256": "de444b987d337b29d323cbd852a2ba28aa742823c0548012866037aa1aa3ca25"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourGentle-2.wav",
+      "sha256": "697697d3dcdeea04cc40080a25296c5f78052da5d57b3e68a6a30a86b201badc"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourGentle-3.wav",
+      "sha256": "0636cad0b970cc4dadf234379095ccac45904070fc830f876994bbc0e6d0f6be"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourThick-0.wav",
+      "sha256": "28a8b6886e35997625caa2731392b9e480398ce3d1fd21eafa8a4435392318fc"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourThick-1.wav",
+      "sha256": "59cf1fb954ff3756c793356b52d1c5767b27ef6b619cd47064a3684bc7efa76c"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourThick-2.wav",
+      "sha256": "3ee42a1cf4fa1237f40962bf9956614ea2ccaf7406d40acdf06db485669ca9eb"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/pourThick-3.wav",
+      "sha256": "bd1f43542f62fd80ffe857157386e537c7df03ec0432530fb174eb1aea0d2967"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/bottleHiss-0.wav",
+      "sha256": "13282494febfa44b82ef3a907cbbf51e5f3f4398d77f996bf73b33ea7b1ee193"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/canOpen-0.wav",
+      "sha256": "51a11eab743e367ded87c14e83b5e8ec81bf0b3467d229c4f93824c39f2dfb04"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/ice-0.wav",
+      "sha256": "f44e641c7aa04ba5f5c3ce5da9090273d39ca862eeef8a57e34d5f5f9052340a"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/ice-1.wav",
+      "sha256": "269ecbca8e57c4c04a85a2a0c13b6968eb099dc73894d5851e9d2996ad2ad68c"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/ice-2.wav",
+      "sha256": "6b6d9bf94e96211ef3aa2fdbd43f2a2817aca1ad691df4841407a1faafdafdd7"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/ice-3.wav",
+      "sha256": "bfa10a849a784758bfdd9f9382dc4cce264d95a8ee580243043f066ac4c676aa"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceHeavy-0.wav",
+      "sha256": "26059b764e28ad16a951000611877674e403ac59d0c5b03578a0adc67a0f2779"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceHeavy-1.wav",
+      "sha256": "b7d40f692d1d5a4c9f08c475056da5027ddd40680384df3486aaf65565c7e1fd"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceHeavy-2.wav",
+      "sha256": "7a6ce31b1c0f93df199df9d8bb9151b0bb9081c6badc52f38dd4dd30fbfbe528"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceHeavy-3.wav",
+      "sha256": "78216e2464055a2ba870a5008ef22d8b21dcc57206d9ec4365db1b587ac59562"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceMetal-0.wav",
+      "sha256": "a544e6c6eb4e9fae5166738f0c7420752edfd8fc60df4c052cc68c70ce5df088"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceMetal-1.wav",
+      "sha256": "becafeac04c2fd1f8c2826afe2f306a27ee35d5a2edfe6d1866d217ab0f31a1f"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceMetal-2.wav",
+      "sha256": "584e13787ebad3bb5199eebf7e545af4b0ae726bb33a1ef4e5abe18cfed4fe2a"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceMetal-3.wav",
+      "sha256": "475bd508e720a9e476a4e572e9311061c00ed70344653903ec45b3f6e08128e5"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceSealed-0.wav",
+      "sha256": "bed0ccc2cc18e69f1978e4165f1193f58898ff716d1ead4b0fd6a29094f77e79"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceSealed-1.wav",
+      "sha256": "9428c81a8408da10ba3029dc42ab26ea8d24bd56e834bce64010dc8b0c99ad2b"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceSealed-2.wav",
+      "sha256": "20d030a597375e18b5568c50573b33b413db455bc4fc8fb235d9ffa3e116cdb7"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/iceSealed-3.wav",
+      "sha256": "a7d49dc89d764d38f892dac76e93d5a4d5d7cde01211103f1ca11aa61755d3a4"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour0Fill0-0.wav",
+      "sha256": "9efec050b868dc04ef7c73f7c7327edfd5ff53998d209cdccf9c34388919f6be"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour0Fill1-0.wav",
+      "sha256": "136140728f5966ded2833542d7bc6ae8743eb32633dd2437e930acd6f09618b2"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour0Fill2-0.wav",
+      "sha256": "1b2ec11db2686679d710ac642784595f999df7c46a685fb58abc695442b9ded8"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour0Fill3-0.wav",
+      "sha256": "bb120d658ea5195fefac1af6e4d264b92dcac89f51af80ed2ecaffce74fe189d"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour0Fill4-0.wav",
+      "sha256": "d2d5be3b0c88ee3a7cac752ef8f8045219a22b023fccc4f7cf204a0f6a5c4a21"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour1Fill0-0.wav",
+      "sha256": "cba736d26eef087f89d9ec149c9513b94a5ce0efd546757f06cb0a2c6109a38a"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour1Fill1-0.wav",
+      "sha256": "d22cf7614a80361a1d4e9070bdb5285f17d5a9a93092a2b77401c9a0903660e5"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour1Fill2-0.wav",
+      "sha256": "8d36f67d9fade6b11e88c249a4936a7c9675ebc0fe44e1bac3f5d23e9405970d"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour1Fill3-0.wav",
+      "sha256": "5232225bcf618654c197aee7efaac84d1aa4ab83098f76289896ebba476ed0ef"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour1Fill4-0.wav",
+      "sha256": "99311b4c31447843578ad96b59c1c20fc972f1f9e2d878f8c451efd54fd98193"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour2Fill0-0.wav",
+      "sha256": "b46df346d5f43c012110a49e62375a7dce5f40a64349c3f895907b7814b842cc"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour2Fill1-0.wav",
+      "sha256": "eab5446393846d2994263073a12c32297e450e86388e39e819b63e7822f6cdb7"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour2Fill2-0.wav",
+      "sha256": "ef0a7c4499316678288f5fb0a34eda83e0f09e27fe9078719f6d70e3f6b39e50"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour2Fill3-0.wav",
+      "sha256": "9b559643dbc4b708de28fefae26309b36045bab12ababe737aa9744f17f71e5a"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pour2Fill4-0.wav",
+      "sha256": "95aa86bbff3e4256141ff45456884078d02ca5add1dddb48ad6b25b8858e2026"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourDrip-0.wav",
+      "sha256": "721145e64ed6427d7154b0ec358239935d4b24aef37793e634fff3afb595493b"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal0Fill0-0.wav",
+      "sha256": "77b0f5257a9da660234faf2dfa34be65a34febd340115b7888f45472eb023c7f"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal0Fill1-0.wav",
+      "sha256": "00b4848b6e2bd6a845550bd7843e4b0ee41163eb87859709238e0240e38d3010"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal0Fill2-0.wav",
+      "sha256": "33434ee11a85d9f5bcc4877f7b9d9fcd3075f8087082c8d1a81c6c2ae5a2b52f"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal0Fill3-0.wav",
+      "sha256": "2ae1891c94f40091e8852a4c0d461cc109de078aaa23007541877fc6b2dbad0b"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal0Fill4-0.wav",
+      "sha256": "4fc480f0c102f221d17034d2932fa17ec90fe3bd9ebbf696f7a30d0c4b36bd14"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal1Fill0-0.wav",
+      "sha256": "50383d019080322cde870b7ccb9846b1062db73769820f07fd5a765a9f5e8b56"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal1Fill1-0.wav",
+      "sha256": "4d4d0f56cc4bd1139bac4d5d5f13b6f853596b9ed7ad11b877fd4a127277e443"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal1Fill2-0.wav",
+      "sha256": "c72214a454683e401bf68b3d036d39bfbeaa2debd859bff6800857711151a5f3"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal1Fill3-0.wav",
+      "sha256": "20368360f139b425e010267221753f863a8a76b42bf000546be3ad732f57e333"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal1Fill4-0.wav",
+      "sha256": "6a681575fac95f45c28611e6449a446f7be3ba20aad3c46779df301afbbe3d74"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal2Fill0-0.wav",
+      "sha256": "de93f83f1ae984e8c772705b8b663aefbe5410abb30e3f9e3234b867c7cff4aa"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal2Fill1-0.wav",
+      "sha256": "eeed09266108379eb806e9c32059d308a14c7f49d2ca1df87ea4f3306594e2d0"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal2Fill2-0.wav",
+      "sha256": "1efcfb74e3ff8371b7402316719d3fd10b50d3c0d9641c3e713a448ca94063af"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal2Fill3-0.wav",
+      "sha256": "e542f3fe76cdd5373b5d383c9f8c2f92b1c272a02d25ad3f81f1038c496c1c5d"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetal2Fill4-0.wav",
+      "sha256": "76a7d878007c680878728c026066bcb6cb13dcb31c24d33d8c800e3ff88d5013"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetalDrip-0.wav",
+      "sha256": "f49461ac2978cd4b3f8a6b9ffba23bdbbbfe8a4ea2ad12fdf753c197905e89d0"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourMetalStart-0.wav",
+      "sha256": "2f896abd58139f092954c5e3b029a2da70959e74725441a089342ddcc6db4a0c"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/pourStart-0.wav",
+      "sha256": "0ef1e8e0c2ec10590b8f468ec59ce8e66e47adaf394426f5dd0a2138def8d800"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerBright-0.wav",
+      "sha256": "35bd8deb525b65f0cab714dc533e286539fbba0c6aa08b276e23094cc8ef5905"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerBright-1.wav",
+      "sha256": "885f5271af2ccf7a1b3081be35fed57fc9a1dc918fbdbc908eaf7d22b6656a00"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerBright-2.wav",
+      "sha256": "15c7c6895837c26399bc42d4b0b2c63d85e57d86de45e47341a7e7ca11a728d4"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerBright-3.wav",
+      "sha256": "dd42fd9b9847dea17f05001f98cb695e405225b1045e1080991eb6aa27652233"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerDull-0.wav",
+      "sha256": "c3b1a9ab6315e3da85fbc02de2193b9a39666a402372bb227bb1d564c17f36b4"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerDull-1.wav",
+      "sha256": "80d8ccbb40bcbf9dd2eee7f13592cbe1407ea4bab24690c6fce5310680c5fdf9"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerDull-2.wav",
+      "sha256": "37cf79608adc24cfa350f23f75711a68e1b0dc82167bfdb5f6673314c3f8a676"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/shakerDull-3.wav",
+      "sha256": "d3a0d7ebb6dae8ec7c2c5d2d0b0eef36c58a6d10c78a6b2eeedcc6e666e6ced8"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/soda-0.wav",
+      "sha256": "143004658c1a8c4c187dacf11ad653e969982dae95fde2e912fb5aeb90093891"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/soda-1.wav",
+      "sha256": "9c3cabd911933efabacf48e3bc4ae06a4ebad73aac88ef9244d52dfbb1f56804"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/soda-2.wav",
+      "sha256": "d00891df22f4bcf93691598a0f914e032f5212f47886748269f2574bd39a70d6"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/soda-3.wav",
+      "sha256": "74cad1016c6845a285da4f0e1c9885c811ce32d5477d7cf91416bd10e2997823"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/sodaIce-0.wav",
+      "sha256": "143004658c1a8c4c187dacf11ad653e969982dae95fde2e912fb5aeb90093891"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/sodaIce-1.wav",
+      "sha256": "9c3cabd911933efabacf48e3bc4ae06a4ebad73aac88ef9244d52dfbb1f56804"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/sodaIce-2.wav",
+      "sha256": "d00891df22f4bcf93691598a0f914e032f5212f47886748269f2574bd39a70d6"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/sodaIce-3.wav",
+      "sha256": "74cad1016c6845a285da4f0e1c9885c811ce32d5477d7cf91416bd10e2997823"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/stir-0.wav",
+      "sha256": "83228340a03a9b9c2ad2e2f9db18fa71d72f44835fb6a01dc07cfbd5af9213b9"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/stir-1.wav",
+      "sha256": "78a716b7d3b250679e3341b3390bbf56bbbfebdf1e6a97306176e29443cb72f9"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/stir-2.wav",
+      "sha256": "74613ad6401d178e4cbda381b67f56b86fff2ed8ffc537e27c6e5db985803b13"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/stir-3.wav",
+      "sha256": "2650fa3f4839eec4a49fa8e48a9dc015cf381a6d7f34ffb35d58ace5abebf7cb"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeBright-0.wav",
+      "sha256": "5068ccf08f1e1cab6a308375760e5d84fc602bcfda6419f88d9d82bb2bc0b875"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeBright-1.wav",
+      "sha256": "2f0251aa10d44267f3fa1b899fae5146f40e083173b76fe73c2b224be3a4ccd4"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeBright-2.wav",
+      "sha256": "19ac064f72f63a2e6f3e762406cf04eecdeadaec379190e9d3c24a22bd685510"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeBright-3.wav",
+      "sha256": "df5a0d925d454af4308f3b971c6c37dca8f9d72cce3794afda754f8e16e3d4a3"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeDull-0.wav",
+      "sha256": "c22ca2a79e831c1c9f545f70c737532634e8521b5f113c71cbf94ccf50416dcb"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeDull-1.wav",
+      "sha256": "72028f8f391ca8fbb35be9cc47e3e3f58eb81fb11e5db7331e634c4d8da960ac"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeDull-2.wav",
+      "sha256": "ee8bf90b057da965b48414abf2fd990a83c8eab7e82fc0361317837302c576b6"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeDull-3.wav",
+      "sha256": "2f35c7f66880db79af9bf8270e88797b04df2e24099d37b715d6946821780140"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeWet-0.wav",
+      "sha256": "a6f5502a7fbc53ec8cf86ba9e8567d32accd21fdd67db49a9f6ce9df73df9b94"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeWet-1.wav",
+      "sha256": "17efab22d09a06da35fc363b2314c19a1eeacb1010ff66cfb5de5c9d44a50f88"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeWet-2.wav",
+      "sha256": "a6f5502a7fbc53ec8cf86ba9e8567d32accd21fdd67db49a9f6ce9df73df9b94"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/Q/strokeWet-3.wav",
+      "sha256": "17efab22d09a06da35fc363b2314c19a1eeacb1010ff66cfb5de5c9d44a50f88"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerBright-0.wav",
+      "sha256": "e2193dae175207dd83002306aa27105aa75c3bc7902335bc71960fd07b5c4b5f"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerBright-1.wav",
+      "sha256": "2df6fe2d8f679436dc45718c9d880fe25fa9af9f66f5ae04da16ae3a34742048"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerBright-2.wav",
+      "sha256": "c45b2508dc8336b4b1b8b780b121be10c1b3541671c767f377e330ca46ec7958"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerBright-3.wav",
+      "sha256": "413fcc350b93e4944fdfa771c416ac38fa0f090241004fa606d8b859eae1c642"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerDull-0.wav",
+      "sha256": "7776105833207f08021eb9053bad41b0ad87e98a271b867a6921c0c0318abb44"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerDull-1.wav",
+      "sha256": "e61e734404d52d949c1c3e752a5466cf477ce3a6a30eef8fb4dcd8b1a7d173aa"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerDull-2.wav",
+      "sha256": "a19613c9cca007c4cd5b42cda0ba9578bc9f6395b08a7ec492aac68b14204a56"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/shakerDull-3.wav",
+      "sha256": "b466ce2dee49e84b9deccce00d087b7da2f89abe3f5181d2013bc1ac558bdf03"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/soda-0.wav",
+      "sha256": "92b0ab8677a6bebf4e65b2ea275f531db17df73c381e01cbff6e3b34a36277bd"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/soda-1.wav",
+      "sha256": "c0cf479fe329893ceebfb4011e295924584e7aecbabb997b5307356523f75f6f"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/soda-2.wav",
+      "sha256": "60101ac996503ba7348134f4fae24dfb047f89654599cb33dfee83b58bee1523"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/soda-3.wav",
+      "sha256": "f0204e637907da5c50a840d4064282ff8ba90ac0248eeb41f9f35016e06278de"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/stir-0.wav",
+      "sha256": "cdf35629b2b332e9d1685a7728dcf0e3a9745fd22b8410d745aa26f47d4099c5"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/stir-1.wav",
+      "sha256": "1ec47eb23ebe4f18f584d208b1ef2f000ba04ee9c9b4a178d248549c4adc0f36"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/stir-2.wav",
+      "sha256": "6c4dbf3a0e3af1476a399e1e104e4791c5c9c4c40789dba1424ccf33a6efdadd"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarAudio/stir-3.wav",
+      "sha256": "b771e24973a0ab9e16e12151c170629dcb841bd84618cd5a496845d400579721"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BarUISubsetSC.ttf",
+      "sha256": "93c580169557428c4f71bfc664450ad0f25aaaf71450e5a30a5d89a341a49c5e"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BTextures/frost-mask.png",
+      "sha256": "12e0e3f49c8b9610adc66f028b4328370cbf5111079e11cf69aa033b60787972"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BTextures/microbubbles.png",
+      "sha256": "fd659351eef5f440be6681e6d485b04cb43d8e7999599e5d60aea103545c7702"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BTextures/water-mask.png",
+      "sha256": "564b497b725ce8d639c8a597032c0379184cd353cd24a8265f3d43de915a0145"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/BTextures/water-phases.png",
+      "sha256": "50f56bb8458f247f3359685ee02bb956342acf85b29b5f3591cdd96f2b9d45bb"
+    },
+    {
+      "path": "Assets/Bar/Rendering/Resources/PourNoise.png",
+      "sha256": "7e62a4db70a21738d7809b13c15bb90523535f7130747987f4b4c10888617043"
+    }
+  ]
+}

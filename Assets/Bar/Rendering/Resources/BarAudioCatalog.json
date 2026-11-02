@@ -1,0 +1,763 @@
+{
+  "note": "音频混音参数为人为设定、未标定；录音来源与许可见 ThirdPartyNotices。运行时播放离线样本，敞口容器不播放冰块持续碰撞声，放置声单独使用 placeGain。",
+  "banks": [
+    {
+      "id": "ice",
+      "paths": [
+        "BarAudio/Q/ice-0",
+        "BarAudio/Q/ice-1",
+        "BarAudio/Q/ice-2",
+        "BarAudio/Q/ice-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "iceHeavy",
+      "paths": [
+        "BarAudio/Q/iceHeavy-0",
+        "BarAudio/Q/iceHeavy-1",
+        "BarAudio/Q/iceHeavy-2",
+        "BarAudio/Q/iceHeavy-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "metal",
+      "paths": [
+        "BarAudio/metal-0",
+        "BarAudio/metal-1",
+        "BarAudio/metal-2",
+        "BarAudio/metal-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "lid",
+      "paths": [
+        "BarAudio/lid-0",
+        "BarAudio/lid-1",
+        "BarAudio/lid-2",
+        "BarAudio/lid-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "place",
+      "paths": [
+        "BarAudio/place-0",
+        "BarAudio/place-1",
+        "BarAudio/place-2",
+        "BarAudio/place-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "shakerBright",
+      "paths": [
+        "BarAudio/Q/shakerBright-0",
+        "BarAudio/Q/shakerBright-1",
+        "BarAudio/Q/shakerBright-2",
+        "BarAudio/Q/shakerBright-3"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "shakerDull",
+      "paths": [
+        "BarAudio/Q/shakerDull-0",
+        "BarAudio/Q/shakerDull-1",
+        "BarAudio/Q/shakerDull-2",
+        "BarAudio/Q/shakerDull-3"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourThick",
+      "paths": [
+        "BarAudio/Q/pour1Fill2-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "stir",
+      "paths": [
+        "BarAudio/Q/stir-0",
+        "BarAudio/Q/stir-1",
+        "BarAudio/Q/stir-2",
+        "BarAudio/Q/stir-3"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "press",
+      "paths": [],
+      "loop": true,
+      "loopStartSample": 1024
+    },
+    {
+      "id": "soda",
+      "paths": [
+        "BarAudio/Q/soda-0",
+        "BarAudio/Q/soda-1",
+        "BarAudio/Q/soda-2",
+        "BarAudio/Q/soda-3"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "bubble",
+      "loop": false,
+      "paths": [
+        "BarAudio/bubble-0",
+        "BarAudio/bubble-1",
+        "BarAudio/bubble-2",
+        "BarAudio/bubble-3",
+        "BarAudio/bubble-4",
+        "BarAudio/bubble-5",
+        "BarAudio/bubble-6",
+        "BarAudio/bubble-7",
+        "BarAudio/bubble-8",
+        "BarAudio/bubble-9"
+      ],
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourThin",
+      "loop": true,
+      "paths": [],
+      "loopStartSample": 1024
+    },
+    {
+      "id": "gulp",
+      "paths": [],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "iceIce",
+      "paths": [],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "iceMetal",
+      "paths": [
+        "BarAudio/Q/iceMetal-0",
+        "BarAudio/Q/iceMetal-1",
+        "BarAudio/Q/iceMetal-2",
+        "BarAudio/Q/iceMetal-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "iceSealed",
+      "paths": [
+        "BarAudio/Q/iceSealed-0",
+        "BarAudio/Q/iceSealed-1",
+        "BarAudio/Q/iceSealed-2",
+        "BarAudio/Q/iceSealed-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "strokeBright",
+      "paths": [
+        "BarAudio/Q/strokeBright-0",
+        "BarAudio/Q/strokeBright-1",
+        "BarAudio/Q/strokeBright-2",
+        "BarAudio/Q/strokeBright-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "strokeDull",
+      "paths": [
+        "BarAudio/Q/strokeDull-0",
+        "BarAudio/Q/strokeDull-1",
+        "BarAudio/Q/strokeDull-2",
+        "BarAudio/Q/strokeDull-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "strokeWet",
+      "paths": [
+        "BarAudio/Q/strokeWet-0",
+        "BarAudio/Q/strokeWet-1",
+        "BarAudio/Q/strokeWet-2",
+        "BarAudio/Q/strokeWet-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "sodaIce",
+      "paths": [
+        "BarAudio/Q/sodaIce-0",
+        "BarAudio/Q/sodaIce-1",
+        "BarAudio/Q/sodaIce-2",
+        "BarAudio/Q/sodaIce-3"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "canOpen",
+      "paths": [
+        "BarAudio/Q/canOpen-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "bottleHiss",
+      "paths": [
+        "BarAudio/Q/bottleHiss-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour0Fill0",
+      "paths": [
+        "BarAudio/Q/pour0Fill0-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour0Fill1",
+      "paths": [
+        "BarAudio/Q/pour0Fill1-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour0Fill2",
+      "paths": [
+        "BarAudio/Q/pour0Fill2-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour0Fill3",
+      "paths": [
+        "BarAudio/Q/pour0Fill3-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour0Fill4",
+      "paths": [
+        "BarAudio/Q/pour0Fill4-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour1Fill0",
+      "paths": [
+        "BarAudio/Q/pour1Fill0-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour1Fill1",
+      "paths": [
+        "BarAudio/Q/pour1Fill1-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour1Fill2",
+      "paths": [
+        "BarAudio/Q/pour1Fill2-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour1Fill3",
+      "paths": [
+        "BarAudio/Q/pour1Fill3-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour1Fill4",
+      "paths": [
+        "BarAudio/Q/pour1Fill4-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour2Fill0",
+      "paths": [
+        "BarAudio/Q/pour2Fill0-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour2Fill1",
+      "paths": [
+        "BarAudio/Q/pour2Fill1-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour2Fill2",
+      "paths": [
+        "BarAudio/Q/pour2Fill2-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour2Fill3",
+      "paths": [
+        "BarAudio/Q/pour2Fill3-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pour2Fill4",
+      "paths": [
+        "BarAudio/Q/pour2Fill4-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourStart",
+      "paths": [
+        "BarAudio/Q/pourStart-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourDrip",
+      "paths": [
+        "BarAudio/Q/pourDrip-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "shakerRelease",
+      "paths": [],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal0Fill0",
+      "paths": [
+        "BarAudio/Q/pourMetal0Fill0-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal0Fill1",
+      "paths": [
+        "BarAudio/Q/pourMetal0Fill1-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal0Fill2",
+      "paths": [
+        "BarAudio/Q/pourMetal0Fill2-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal0Fill3",
+      "paths": [
+        "BarAudio/Q/pourMetal0Fill3-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal0Fill4",
+      "paths": [
+        "BarAudio/Q/pourMetal0Fill4-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal1Fill0",
+      "paths": [
+        "BarAudio/Q/pourMetal1Fill0-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal1Fill1",
+      "paths": [
+        "BarAudio/Q/pourMetal1Fill1-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal1Fill2",
+      "paths": [
+        "BarAudio/Q/pourMetal1Fill2-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal1Fill3",
+      "paths": [
+        "BarAudio/Q/pourMetal1Fill3-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal1Fill4",
+      "paths": [
+        "BarAudio/Q/pourMetal1Fill4-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal2Fill0",
+      "paths": [
+        "BarAudio/Q/pourMetal2Fill0-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal2Fill1",
+      "paths": [
+        "BarAudio/Q/pourMetal2Fill1-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal2Fill2",
+      "paths": [
+        "BarAudio/Q/pourMetal2Fill2-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal2Fill3",
+      "paths": [
+        "BarAudio/Q/pourMetal2Fill3-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetal2Fill4",
+      "paths": [
+        "BarAudio/Q/pourMetal2Fill4-0"
+      ],
+      "loop": true,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetalStart",
+      "paths": [
+        "BarAudio/Q/pourMetalStart-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "pourMetalDrip",
+      "paths": [
+        "BarAudio/Q/pourMetalDrip-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "shakerDry",
+      "paths": [],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectSwish",
+      "paths": [
+        "BarAudio/Inspect/inspectSwish-0",
+        "BarAudio/Inspect/inspectSwish-1",
+        "BarAudio/Inspect/inspectSwish-2",
+        "BarAudio/Inspect/inspectSwish-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectFinger",
+      "paths": [
+        "BarAudio/Inspect/inspectFinger-0",
+        "BarAudio/Inspect/inspectFinger-1",
+        "BarAudio/Inspect/inspectFinger-2",
+        "BarAudio/Inspect/inspectFinger-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectCatch",
+      "paths": [
+        "BarAudio/Inspect/inspectCatch-0",
+        "BarAudio/Inspect/inspectCatch-1",
+        "BarAudio/Inspect/inspectCatch-2",
+        "BarAudio/Inspect/inspectCatch-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectTin",
+      "paths": [
+        "BarAudio/Inspect/inspectTin-0",
+        "BarAudio/Inspect/inspectTin-1",
+        "BarAudio/Inspect/inspectTin-2",
+        "BarAudio/Inspect/inspectTin-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectTongs",
+      "paths": [
+        "BarAudio/Inspect/inspectTongs-0",
+        "BarAudio/Inspect/inspectTongs-1",
+        "BarAudio/Inspect/inspectTongs-2",
+        "BarAudio/Inspect/inspectTongs-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectPlastic",
+      "paths": [
+        "BarAudio/Inspect/inspectPlastic-0",
+        "BarAudio/Inspect/inspectPlastic-1",
+        "BarAudio/Inspect/inspectPlastic-2",
+        "BarAudio/Inspect/inspectPlastic-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectIce",
+      "paths": [
+        "BarAudio/Inspect/inspectIce-0",
+        "BarAudio/Inspect/inspectIce-1",
+        "BarAudio/Inspect/inspectIce-2",
+        "BarAudio/Inspect/inspectIce-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectIceSwirl",
+      "paths": [
+        "BarAudio/Inspect/inspectIceSwirl-0",
+        "BarAudio/Inspect/inspectIceSwirl-1"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectIceTin",
+      "paths": [
+        "BarAudio/Inspect/inspectIceTin-0",
+        "BarAudio/Inspect/inspectIceTin-1",
+        "BarAudio/Inspect/inspectIceTin-2"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectSlosh",
+      "paths": [
+        "BarAudio/Inspect/inspectSlosh-0",
+        "BarAudio/Inspect/inspectSlosh-1",
+        "BarAudio/Inspect/inspectSlosh-2",
+        "BarAudio/Inspect/inspectSlosh-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "inspectSloshTin",
+      "paths": [
+        "BarAudio/Inspect/inspectSloshTin-0",
+        "BarAudio/Inspect/inspectSloshTin-1",
+        "BarAudio/Inspect/inspectSloshTin-2",
+        "BarAudio/Inspect/inspectSloshTin-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "microCone",
+      "paths": [
+        "BarAudio/Inspect/microCone-0",
+        "BarAudio/Inspect/microCone-1",
+        "BarAudio/Inspect/microCone-2"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "microKnuckle",
+      "paths": [
+        "BarAudio/Inspect/microKnuckle-0",
+        "BarAudio/Inspect/microKnuckle-1",
+        "BarAudio/Inspect/microKnuckle-2"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "microPalm",
+      "paths": [
+        "BarAudio/Inspect/microPalm-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "microRidge",
+      "paths": [
+        "BarAudio/Inspect/microRidge-0",
+        "BarAudio/Inspect/microRidge-1",
+        "BarAudio/Inspect/microRidge-2",
+        "BarAudio/Inspect/microRidge-3"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    },
+    {
+      "id": "microSpoonStop",
+      "paths": [
+        "BarAudio/Inspect/microSpoonStop-0"
+      ],
+      "loop": false,
+      "loopStartSample": 0
+    }
+  ],
+  "poolSize": 16,
+  "iceConcurrency": 6,
+  "otherConcurrency": 4,
+  "pairCooldown": 0.04,
+  "pitchVariation": 0.01,
+  "volumeVariationDb": 1,
+  "spatialBlend": 0.9,
+  "loopPaddingSamples": 1024,
+  "loopFadeSeconds": 0.03,
+  "pourPitchLow": 0.99,
+  "pourPitchHigh": 1.01,
+  "flowFullMlPerSecond": 45,
+  "gulpAngle": 65,
+  "gulpInterval": 0.45,
+  "dilutionFullPercent": 25,
+  "bubbleRadiusMin": 0.0008,
+  "bubbleRadiusMax": 0.003,
+  "sampleRate": 44100,
+  "bubbleSeconds": 0.16,
+  "minnaertVariants": 10,
+  "waterSeconds": 1.5,
+  "waterBubblesPerSecond": 90,
+  "bubbleDecay": 35,
+  "bubbleSweep": 0.12,
+  "bubbleNoise": 0.04,
+  "bubbleGain": 0.35,
+  "audibleDistance": 6,
+  "minimumDistance": 0.2,
+  "actionGain": 0.142,
+  "pourThinGain": 0,
+  "pourThickGain": 0.25,
+  "tailGain": 0,
+  "gulpGain": 0,
+  "shakerGain": 0.35,
+  "stirGain": 0.6,
+  "fizzGain": 0.04,
+  "pressGain": 0,
+  "sloshGain": 0.14,
+  "iceMassFullGrams": 150,
+  "sloshPitch": 0.8,
+  "observationSeconds": 0.1,
+  "gainChange": 0.1,
+  "pitchChange": 0.03,
+  "strongImpactThreshold": 0.45,
+  "smallIcePitch": 1.15,
+  "largeIcePitch": 0.9,
+  "masterGain": 0.65,
+  "attackSeconds": 0.08,
+  "releaseSeconds": 0.18,
+  "gainSmoothingSeconds": 0.06,
+  "pourLowFlowGain": 0.04,
+  "scheduleSeconds": 0.03,
+  "impactMinimum": 0.004,
+  "impactFull": 0.015,
+  "strokeGain": 0.7,
+  "strokeSpeedFull": 12,
+  "shakerBedGain": 0.04,
+  "strokeNote": "2026-10-28：冲程声按画面轨迹上冰块撞壁的时刻发（不再按鼠标折返）。撞壶盖一端 strokeBright 全量、strokeDull 乘 strokeCapDull；撞壶底一端反过来乘 strokeBottomBright。起壶接住时 strokeDull + metal 乘 catchGain。冰块底噪在冲程中段降到 bedMidStroke、两端最大。人为设定、未标定。",
+  "strokeBottomBright": 0.7,
+  "strokeCapDull": 0.7,
+  "catchGain": 0.6,
+  "bedMidStroke": 0.6,
+  "stirNote": "2026-10-28 搅拌：搅拌底噪乘 Lerp(stirBedStill, 1, 勺子转速比例)，勺子滑行停下时渐弱。壶/杯里有冰时，勺子每转 clinkTurns 圈（BarStirSettings.json）轻碰一下：玻璃杯用 ice 库、雪克壶用 iceMetal 库，音量 stirClinkGain × 转速比例 × √(冰量比例)，音高 stirClinkPitchLow→High 随转速升高。stirClinks=false 可整体关闭。人为设定、未标定。",
+  "stirClinks": true,
+  "stirBedStill": 0.3,
+  "stirClinkGain": 0.18,
+  "stirClinkPitchLow": 1.05,
+  "stirClinkPitchHigh": 1.2,
+  "placeGain": 0.5,
+  "openIceImpactSounds": false,
+  "iceSoundNote": "用户 2026-10-27：冰声只留两种——冰块放进敞口容器时每块的第一次落定（音量 ×0.5），以及封壶真正在摇时的撞击；盖上盖子、端着走、冰块互相压着都不出声。人为设定、未标定",
+  "iceLandingSounds": true,
+  "iceLandingGain": 0.5,
+  "sealedIceOnlyWhileShaking": true,
+  "landingSpacingSeconds": 0.025,
+  "stealDecaySeconds": 0.15,
+  "soundFixNote": "ice/iceHeavy 使用冰落玻璃杯录音，iceMetal 使用落入金属壶录音，iceSealed 使用封壶摇冰录音。样本在离线完成裁切、淡出和短房间尾音；同一容器通过 landingSpacingSeconds 合并密集落冰事件，声部抢占按当前估计响度排序。参数人为设定、未标定。",
+  "inspectSoundNote": "inspect* 是检视动作的一次性音效库，实际音量由 BarHoldView.json 的各触发点 gain 控制；录音来源见 ThirdPartyNotices/provenance/。",
+  "microFoleyNote": "2026-10-30用户授权：micro* 为离线确定性模态与已有CC0皮肤/掌心录音的短切片，不是实录钢材；无宽带噪声、风声或IR。只用于吧勺/量酒器检视。"
+}

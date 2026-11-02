@@ -1,0 +1,388 @@
+{
+  "model": "cocktail-proxy-2.3-guided-pour",
+  "sourceCoreSHA256": "58c842ef8bc20631446b9410642f8ab2fe675326f0b356e2bc26927a44616b3d",
+  "sourceModelSHA256": "502edf72b13ed8387b150072297a2f45c5025da0bf82fb8507cf878e57884269",
+  "sourceIngredientsSHA256": "be37a1e21e87ed31fa18486eff2587dce0e927ddd5928c82b5a25a23097d5735",
+  "specificHeat": 4.186,
+  "latentHeat": 334,
+  "step": 0.1,
+  "roomTemperature": 25,
+  "environmentK": 0.5,
+  "conductance": {
+    "rest": 2,
+    "stir": 20,
+    "shake": 150
+  },
+  "co2LossPerSecond": {
+    "rest": 0.003,
+    "stir": 0.018,
+    "shake": 0.08
+  },
+  "wallAgitation": {
+    "rest": 1,
+    "stir": 1,
+    "shake": 8
+  },
+  "carbonatedPour": {
+    "directFraction": 0.08,
+    "guidedFraction": 0.025
+  },
+  "ethanolDensity": 0.78924,
+  "iceDensity": 0.917,
+  "icePortionGrams": 40,
+  "freezing": {
+    "ethanolWeightPercent": [
+      0,
+      2.5,
+      4.8,
+      6.8,
+      11.3,
+      13.8,
+      17.5,
+      18.8,
+      20.3,
+      22.1,
+      24.2,
+      26.7,
+      29.9,
+      33.8,
+      39,
+      46.3
+    ],
+    "ethanolDepressionC": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6.1,
+      8.7,
+      9.4,
+      10.6,
+      12.2,
+      14,
+      16,
+      18.9,
+      23.6,
+      28.7,
+      33.9
+    ],
+    "sucroseGramsPer100gWater": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "sucroseDepressionC": [
+      0,
+      0.18,
+      0.35,
+      0.53,
+      0.72,
+      0.9,
+      1.1,
+      1.29,
+      1.47,
+      1.67,
+      1.86
+    ],
+    "fit": "quadratic through origin, least squares over all listed points; same functional family as C0",
+    "ethanolSource": {
+      "url": "https://perfumeprojects.com/perfume/technology/Ethyl_Alcohol_Handbook_Equistar.pdf",
+      "printedPage": 61,
+      "pdfPage": 62,
+      "sourceType": "manufacturer compilation, mirrored; graph cites Mellan 1977",
+      "addedPairs": [
+        [
+          33.8,
+          -23.6
+        ],
+        [
+          39,
+          -28.7
+        ],
+        [
+          46.3,
+          -33.9
+        ]
+      ],
+      "visuallyChecked": "2026-10-19: Design_v2/sources/equistar-ethanol-table.png"
+    },
+    "sugarSource": "https://foodscience.uoguelph.ca/sites/default/files/FreezingCurveCalculation.pdf p2, university teaching compilation",
+    "policy": "Ice exchange: require x<=46.3 and z<=102 using the sourced extension; outside pauses only that vessel ice/liquid exchange. No ice means no ice-domain gate. Legacy freezing() diagnostic retains z<=30 for compatibility. No extrapolation in integration; ternary error unknown.",
+    "extendedSucroseGramsPer100gWater": [
+      30,
+      33,
+      36,
+      39,
+      42,
+      45,
+      48,
+      51,
+      54,
+      57,
+      60,
+      63,
+      66,
+      69,
+      72,
+      75,
+      78,
+      81,
+      84,
+      87,
+      90,
+      93,
+      96,
+      99,
+      102
+    ],
+    "extendedSucroseDepressionC": [
+      1.86,
+      2.03,
+      2.21,
+      2.4,
+      2.6,
+      2.78,
+      2.99,
+      3.2,
+      3.42,
+      3.63,
+      3.85,
+      4.1,
+      4.33,
+      4.54,
+      4.77,
+      5,
+      5.26,
+      5.53,
+      5.77,
+      5.99,
+      6.23,
+      6.5,
+      6.8,
+      7.04,
+      7.32
+    ],
+    "extensionEvidence": {
+      "source": "https://www.uoguelph.ca/foodscience/sites/uoguelph.ca.foodscience/files/public/FreezingCurveCalculation.pdf",
+      "page": 2,
+      "verified": "2026-10-21",
+      "units": "g sucrose / 100 g water; freezing point depression C",
+      "method": "Retain original quadratic at z<=30; interpolate source table at 30<z<=102. Join at the legacy z=30 fitted value. No extrapolation. Table itself reports extrapolation from historical sources; ternary error remains unknown."
+    }
+  },
+  "vessels": [
+    {
+      "id": "jigger",
+      "capacityMl": 80,
+      "massGrams": 30,
+      "specificHeat": 0.5,
+      "liquidK": 3,
+      "environmentK": 0.1,
+      "kind": "jigger"
+    },
+    {
+      "id": "shaker",
+      "capacityMl": 750,
+      "massGrams": 120,
+      "specificHeat": 0.5,
+      "liquidK": 8,
+      "environmentK": 0.2,
+      "kind": "shaker"
+    },
+    {
+      "id": "glass",
+      "capacityMl": 400,
+      "massGrams": 180,
+      "specificHeat": 0.84,
+      "liquidK": 6,
+      "environmentK": 0.2,
+      "kind": "glass"
+    },
+    {
+      "id": "highball",
+      "capacityMl": 500,
+      "massGrams": 220,
+      "specificHeat": 0.84,
+      "liquidK": 6,
+      "environmentK": 0.2,
+      "kind": "glass"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "spirit",
+      "label": "基础烈酒（中性40%代理）",
+      "abv": 0.4,
+      "density": 0.95,
+      "sugar": 0,
+      "acid": 0,
+      "co2GL": 0,
+      "temperature": 20,
+      "flavor": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "abv": "PLACEHOLDER: nominal 40% design strength, no specific brand",
+        "sugar_acid_co2": "design zeros",
+        "density": "PLACEHOLDER: approximate 40% spirit density; not OIML-derived"
+      },
+      "ethanolMassFraction": 0.33231157894736846,
+      "co2MassFraction": 0,
+      "waterMassFraction": 0.6676884210526315,
+      "optical": [
+        0.002280289324126932,
+        0.0009108162125718632,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "syrup",
+      "label": "普通甘蔗糖浆",
+      "abv": 0,
+      "density": 1.23,
+      "sugar": 0.5,
+      "acid": 0,
+      "co2GL": 0,
+      "temperature": 20,
+      "flavor": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "sugar": "design recipe: sucrose:water = 1:1 by MASS, not volume",
+        "abv_acid_co2": "design zeros",
+        "density": "PLACEHOLDER; weighed preparation recommended"
+      },
+      "ethanolMassFraction": 0,
+      "co2MassFraction": 0,
+      "waterMassFraction": 0.5,
+      "optical": [
+        0,
+        0.0068736258118792595,
+        0.023305548200155585,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lemon",
+      "label": "柠檬汁代理",
+      "abv": 0,
+      "density": 1.03,
+      "sugar": 0.025,
+      "acid": 0.05,
+      "co2GL": 0,
+      "temperature": 20,
+      "flavor": [
+        0.6,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "sugar": "PLACEHOLDER 2.5% mass",
+        "acid": "PLACEHOLDER 5% citric-acid-equivalent; 21 CFR 146.114 gives >=4.5% titratable acidity for reconstituted juice, not this exact value; https://www.govinfo.gov/content/pkg/CFR-2019-title21-vol2/pdf/CFR-2019-title21-vol2-part146.pdf",
+        "abv_co2": "design zeros"
+      },
+      "ethanolMassFraction": 0,
+      "co2MassFraction": 0,
+      "waterMassFraction": 0.9249999999999999,
+      "optical": [
+        0,
+        0.018553034128454025,
+        0.19348715668699107,
+        0.65,
+        0.65,
+        0.5924148752641298,
+        0.2470366186923695
+      ]
+    },
+    {
+      "id": "soda",
+      "label": "苏打水代理",
+      "abv": 0,
+      "density": 1,
+      "sugar": 0,
+      "acid": 0,
+      "co2GL": 6,
+      "temperature": 4,
+      "flavor": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "sugar": "zero-sugar formulation supported by manufacturer soda nutrition; https://www.coca-cola.com/pg/en/brands/schweppes",
+        "abv_acid": "design zeros; dissolved CO2 is NOT counted again as citric acid",
+        "co2GL": "PLACEHOLDER 6 g/L, manufacturer concentration not obtained"
+      },
+      "ethanolMassFraction": 0,
+      "co2MassFraction": 0.006,
+      "waterMassFraction": 0.994,
+      "optical": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tonic",
+      "label": "汤力水代理（不对应商品配方）",
+      "abv": 0,
+      "density": 1.02,
+      "sugar": 0.045098039215686274,
+      "acid": 0.002,
+      "co2GL": 6,
+      "temperature": 4,
+      "flavor": [
+        0.1,
+        0,
+        0,
+        0.5
+      ],
+      "evidence": {
+        "sugar": "4.6g/100mL / assumed 1.02g/mL; manufacturer PNG regional label: https://www.coca-cola.com/pg/en/brands/schweppes ; label also has sweeteners, omitted here, so not a faithful product clone",
+        "acid": "PLACEHOLDER 0.2% citric-acid-equivalent; amount not disclosed",
+        "co2GL": "PLACEHOLDER 6 g/L",
+        "abv": "design zero"
+      },
+      "ethanolMassFraction": 0,
+      "co2MassFraction": 0.0058823529411764705,
+      "waterMassFraction": 0.9470196078431373,
+      "optical": [
+        0.0013668732540055722,
+        0,
+        0.0013668732540055722,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

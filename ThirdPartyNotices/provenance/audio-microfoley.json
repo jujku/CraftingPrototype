@@ -1,0 +1,122 @@
+[
+  {
+    "bank": "microRidge",
+    "variant": 0,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microRidge-0.wav",
+    "seconds": 0.06,
+    "audibleEnvelopeSeconds": 0.01800453514739229,
+    "description": "4 deterministic 2 ms ridge micro-pings, 2.85–4.02 kHz; no wind/noise/IR",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "095a1848c6857b250cb495a4ec67eb84c507761a0ed193bbaa23a17dbc16910b"
+  },
+  {
+    "bank": "microRidge",
+    "variant": 1,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microRidge-1.wav",
+    "seconds": 0.06,
+    "audibleEnvelopeSeconds": 0.01800453514739229,
+    "description": "4 deterministic 2 ms ridge micro-pings, 2.85–4.02 kHz; no wind/noise/IR",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "69ff0052533a58a4c2fd9185b9cb4b5f693fd7e90889a627143e6285ac497c78"
+  },
+  {
+    "bank": "microRidge",
+    "variant": 2,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microRidge-2.wav",
+    "seconds": 0.06,
+    "audibleEnvelopeSeconds": 0.01800453514739229,
+    "description": "4 deterministic 2 ms ridge micro-pings, 2.85–4.02 kHz; no wind/noise/IR",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "56bf0eebd2774703e198b885b6709553b8c0e87a17b788d416de0780da161ffd"
+  },
+  {
+    "bank": "microRidge",
+    "variant": 3,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microRidge-3.wav",
+    "seconds": 0.06,
+    "audibleEnvelopeSeconds": 0.01800453514739229,
+    "description": "4 deterministic 2 ms ridge micro-pings, 2.85–4.02 kHz; no wind/noise/IR",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "60c6b03d903d9ee65e13b0d3e965eefb7672cf70514280ef5864e8343f7ad86d"
+  },
+  {
+    "bank": "microKnuckle",
+    "variant": 0,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microKnuckle-0.wav",
+    "seconds": 0.06,
+    "audibleEnvelopeSeconds": 0.01199546485260771,
+    "description": "12 ms skin-on-steel tap; modal 1.45–2.31 kHz plus existing CC0 skin transient",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "626fbdfbfbad354f8aa1a86c16fbe7b97adfc4322f2237193e1b1f285186fc8a"
+  },
+  {
+    "bank": "microCone",
+    "variant": 0,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microCone-0.wav",
+    "seconds": 0.15,
+    "audibleEnvelopeSeconds": 0.15,
+    "description": "12 ms knuckle attack + hollow 1.8 kHz modes, 50 ms e-fold decay, dry finger damping",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "a6fc8697a5ab5eaff4b9499dbf316111b8ca2849bdee5e218757c0c01c0be2ee"
+  },
+  {
+    "bank": "microKnuckle",
+    "variant": 1,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microKnuckle-1.wav",
+    "seconds": 0.06,
+    "audibleEnvelopeSeconds": 0.01199546485260771,
+    "description": "12 ms skin-on-steel tap; modal 1.45–2.31 kHz plus existing CC0 skin transient",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "cfeb47fc19b0e7992702796ad91b7faaac92edf050fd356f40b446a86c3962c3"
+  },
+  {
+    "bank": "microCone",
+    "variant": 1,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microCone-1.wav",
+    "seconds": 0.15,
+    "audibleEnvelopeSeconds": 0.15,
+    "description": "12 ms knuckle attack + hollow 1.8 kHz modes, 50 ms e-fold decay, dry finger damping",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "f75b4b5a431997bd6c5e3a7dd85f36c84aba17f7345261268806d5a43073bc02"
+  },
+  {
+    "bank": "microKnuckle",
+    "variant": 2,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microKnuckle-2.wav",
+    "seconds": 0.06,
+    "audibleEnvelopeSeconds": 0.01199546485260771,
+    "description": "12 ms skin-on-steel tap; modal 1.45–2.31 kHz plus existing CC0 skin transient",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "d6de186003144fa1d6af99592f4756503b950f713f73005c44ba26f8f2cfd1aa"
+  },
+  {
+    "bank": "microCone",
+    "variant": 2,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microCone-2.wav",
+    "seconds": 0.15,
+    "audibleEnvelopeSeconds": 0.15,
+    "description": "12 ms knuckle attack + hollow 1.8 kHz modes, 50 ms e-fold decay, dry finger damping",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "80e16d51b1dd4680802acc0ecd195792b95a8ab20068d92073afe545c80440b3"
+  },
+  {
+    "bank": "microSpoonStop",
+    "variant": 0,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microSpoonStop-0.wav",
+    "seconds": 0.18,
+    "audibleEnvelopeSeconds": 0.18,
+    "description": "18 ms skin catch + faint 3.2 kHz cantilever partial, no reverberant tail",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "b2b35faf8b3e7bae7be72b01e3fc5fad99d079b0298623ff5015d1f45d01709e"
+  },
+  {
+    "bank": "microPalm",
+    "variant": 0,
+    "path": "Assets/Bar/Rendering/Resources/BarAudio/Inspect/microPalm-0.wav",
+    "seconds": 0.06498866213151927,
+    "audibleEnvelopeSeconds": 0.06498866213151927,
+    "description": "25 ms real CC0 palm catch plus short body modes; no air",
+    "peakDbFS": -5.192746210115122,
+    "sha256": "925bb32c10ff952f2102a3706056488ee5297a2065b93244faf35cdd204dfa96"
+  }
+]

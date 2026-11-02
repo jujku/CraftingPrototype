@@ -1,0 +1,9 @@
+{
+  "note": "BottleRefine: authored presentation values, uncalibrated; bottle material instances only. Does not alter liquid colour, global glass settings or either drinking glass.",
+  "bottles": [
+    {"id":"gin", "absorption":0.35, "refraction":1.0, "internalReflection":0.7, "filletMetres":0.0045, "rimGain":0.18, "baseContrast":0.10},
+    {"id":"syrup", "absorption":0.35, "refraction":1.0, "internalReflection":0.65, "filletMetres":0.0045, "rimGain":0.16, "baseContrast":0.10},
+    {"id":"soda", "absorption":0.35, "refraction":1.0, "internalReflection":0.65, "filletMetres":0.0045, "rimGain":0.16, "baseContrast":0.10},
+    {"id":"tonic", "absorption":0.35, "refraction":1.0, "internalReflection":0.65, "filletMetres":0.0045, "rimGain":0.16, "baseContrast":0.10}
+  ]
+}

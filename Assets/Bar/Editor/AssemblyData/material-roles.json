@@ -1,0 +1,71 @@
+{
+  "note": "人为设定、未标定；按原材质资源 GUID 和材质槽匹配，不按物体名字分类。",
+  "materials": [
+    {
+      "sourceGuid": "f1d0475d0c7c46e4c8b95e151aa12e9e",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Muted brass.mat",
+      "role": "metal",
+      "nativeMaterial": "Muted brass"
+    },
+    {
+      "sourceGuid": "1174fc9c0ffac8647b91b24f4c328067",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Walnut.mat",
+      "role": "wood",
+      "nativeMaterial": "Walnut"
+    },
+    {
+      "sourceGuid": "3f5e7ad8b4cace445b70f58d777462ea",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Sapphire blue glass.mat",
+      "role": "glass",
+      "nativeMaterial": "Sapphire blue glass"
+    },
+    {
+      "sourceGuid": "c3424069db834a140a0c732dd99a5ca2",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Label deep navy.mat",
+      "role": "label",
+      "nativeMaterial": "Label deep navy"
+    },
+    {
+      "sourceGuid": "2abb11bad39aabf4ba45e4b969b8e42e",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Label warm ivory.mat",
+      "role": "label",
+      "nativeMaterial": "Label warm ivory"
+    },
+    {
+      "sourceGuid": "d70abd5c74869b64593fa1bf73defe4d",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Green bottle glass.mat",
+      "role": "glass",
+      "nativeMaterial": "Green bottle glass"
+    },
+    {
+      "sourceGuid": "50e7603c9713d574896b1b94351053b5",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Clear optical glass.mat",
+      "role": "glass",
+      "nativeMaterial": "Clear optical glass"
+    },
+    {
+      "sourceGuid": "b0640f7f88f81e24ba3c816b8a920fe9",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/End grain maple.mat",
+      "role": "wood",
+      "nativeMaterial": "End grain maple"
+    },
+    {
+      "sourceGuid": "631fcdb3fc7f75449876f16190f9bd75",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Brushed stainless steel.mat",
+      "role": "metal",
+      "nativeMaterial": "Brushed stainless steel"
+    },
+    {
+      "sourceGuid": "9d18f47aaaa5e6a47adb8dabca381f4c",
+      "sourcePath": "Assets/Bar/Art/BarKitMaterials/Polished stainless edges.mat",
+      "role": "metal",
+      "nativeMaterial": "Polished stainless edges"
+    },
+    {
+      "sourceGuid": "f3f146faa1846ad4cb05859596d96370",
+      "sourcePath": "Assets/Bar/Rendering/PolishedStainless.mat",
+      "role": "metal",
+      "nativeMaterial": "Polished stainless edges"
+    }
+  ]
+}

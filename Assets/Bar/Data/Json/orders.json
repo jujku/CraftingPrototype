@@ -1,0 +1,468 @@
+{
+  "note": "人为设定、未标定；反馈只看出杯结果，不检查步骤。参考操作瞬时加料，摇搅计时。",
+  "source": "cocktail-proxy-2.2-wall-agitation; Sour reuses frozen Analysis/v2 intervals.",
+  "maxSentences": 2,
+  "strongDeviation": 1,
+  "satisfiedId": "satisfied",
+  "satisfiedText": "正合我意，谢谢。",
+  "feedback": [
+    {
+      "id": "abvPercent.low.slight",
+      "dimension": "abvPercent",
+      "direction": "low",
+      "severity": "slight",
+      "text": "酒味有点淡。"
+    },
+    {
+      "id": "abvPercent.low.strong",
+      "dimension": "abvPercent",
+      "direction": "low",
+      "severity": "strong",
+      "text": "喝不出酒味。"
+    },
+    {
+      "id": "abvPercent.high.slight",
+      "dimension": "abvPercent",
+      "direction": "high",
+      "severity": "slight",
+      "text": "有点冲。"
+    },
+    {
+      "id": "abvPercent.high.strong",
+      "dimension": "abvPercent",
+      "direction": "high",
+      "severity": "strong",
+      "text": "酒味太重了。"
+    },
+    {
+      "id": "abvPercent.missing.slight",
+      "dimension": "abvPercent",
+      "direction": "missing",
+      "severity": "slight",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "abvPercent.missing.strong",
+      "dimension": "abvPercent",
+      "direction": "missing",
+      "severity": "strong",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "sugarAcidRatio.low.slight",
+      "dimension": "sugarAcidRatio",
+      "direction": "low",
+      "severity": "slight",
+      "text": "有点酸。"
+    },
+    {
+      "id": "sugarAcidRatio.low.strong",
+      "dimension": "sugarAcidRatio",
+      "direction": "low",
+      "severity": "strong",
+      "text": "太酸了。"
+    },
+    {
+      "id": "sugarAcidRatio.high.slight",
+      "dimension": "sugarAcidRatio",
+      "direction": "high",
+      "severity": "slight",
+      "text": "偏甜。"
+    },
+    {
+      "id": "sugarAcidRatio.high.strong",
+      "dimension": "sugarAcidRatio",
+      "direction": "high",
+      "severity": "strong",
+      "text": "太甜了。"
+    },
+    {
+      "id": "sugarAcidRatio.missing.slight",
+      "dimension": "sugarAcidRatio",
+      "direction": "missing",
+      "severity": "slight",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "sugarAcidRatio.missing.strong",
+      "dimension": "sugarAcidRatio",
+      "direction": "missing",
+      "severity": "strong",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "temperature.low.slight",
+      "dimension": "temperature",
+      "direction": "low",
+      "severity": "slight",
+      "text": "有点太冰了。"
+    },
+    {
+      "id": "temperature.low.strong",
+      "dimension": "temperature",
+      "direction": "low",
+      "severity": "strong",
+      "text": "冰得过头了。"
+    },
+    {
+      "id": "temperature.high.slight",
+      "dimension": "temperature",
+      "direction": "high",
+      "severity": "slight",
+      "text": "还不够冰。"
+    },
+    {
+      "id": "temperature.high.strong",
+      "dimension": "temperature",
+      "direction": "high",
+      "severity": "strong",
+      "text": "这杯太温了。"
+    },
+    {
+      "id": "temperature.missing.slight",
+      "dimension": "temperature",
+      "direction": "missing",
+      "severity": "slight",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "temperature.missing.strong",
+      "dimension": "temperature",
+      "direction": "missing",
+      "severity": "strong",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "dilutionPercent.low.slight",
+      "dimension": "dilutionPercent",
+      "direction": "low",
+      "severity": "slight",
+      "text": "味道有点浓。"
+    },
+    {
+      "id": "dilutionPercent.low.strong",
+      "dimension": "dilutionPercent",
+      "direction": "low",
+      "severity": "strong",
+      "text": "味道太浓了。"
+    },
+    {
+      "id": "dilutionPercent.high.slight",
+      "dimension": "dilutionPercent",
+      "direction": "high",
+      "severity": "slight",
+      "text": "有点水。"
+    },
+    {
+      "id": "dilutionPercent.high.strong",
+      "dimension": "dilutionPercent",
+      "direction": "high",
+      "severity": "strong",
+      "text": "这杯太水了。"
+    },
+    {
+      "id": "dilutionPercent.missing.slight",
+      "dimension": "dilutionPercent",
+      "direction": "missing",
+      "severity": "slight",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "dilutionPercent.missing.strong",
+      "dimension": "dilutionPercent",
+      "direction": "missing",
+      "severity": "strong",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "co2Retention.low.slight",
+      "dimension": "co2Retention",
+      "direction": "low",
+      "severity": "slight",
+      "text": "气泡不太够。"
+    },
+    {
+      "id": "co2Retention.low.strong",
+      "dimension": "co2Retention",
+      "direction": "low",
+      "severity": "strong",
+      "text": "没什么气了。"
+    },
+    {
+      "id": "co2Retention.high.slight",
+      "dimension": "co2Retention",
+      "direction": "high",
+      "severity": "slight",
+      "text": "气泡有点多。"
+    },
+    {
+      "id": "co2Retention.high.strong",
+      "dimension": "co2Retention",
+      "direction": "high",
+      "severity": "strong",
+      "text": "气泡太强了。"
+    },
+    {
+      "id": "co2Retention.missing.slight",
+      "dimension": "co2Retention",
+      "direction": "missing",
+      "severity": "slight",
+      "text": "没什么气了。"
+    },
+    {
+      "id": "co2Retention.missing.strong",
+      "dimension": "co2Retention",
+      "direction": "missing",
+      "severity": "strong",
+      "text": "没什么气了。"
+    },
+    {
+      "id": "glass.wrong.slight",
+      "dimension": "glass",
+      "direction": "wrong",
+      "severity": "slight",
+      "text": "这杯子不对。"
+    },
+    {
+      "id": "glass.wrong.strong",
+      "dimension": "glass",
+      "direction": "wrong",
+      "severity": "strong",
+      "text": "这杯子不对。"
+    },
+    {
+      "id": "glass.missing.slight",
+      "dimension": "glass",
+      "direction": "missing",
+      "severity": "slight",
+      "text": "这杯的风味有些失衡。"
+    },
+    {
+      "id": "glass.missing.strong",
+      "dimension": "glass",
+      "direction": "missing",
+      "severity": "strong",
+      "text": "这杯的风味有些失衡。"
+    }
+  ],
+  "orders": [
+    {
+      "id": "gin-sour",
+      "name": "Gin Sour",
+      "glass": "coupe",
+      "glassLabel": "碟形鸡尾酒杯",
+      "description": "想要一杯冰凉、酸甜平衡，仍有酒体的酸酒。",
+      "reference": {
+        "spiritMl": 45,
+        "syrupMl": 20,
+        "lemonMl": 25,
+        "shakerIceGrams": 80,
+        "shakeSeconds": 12,
+        "intensity": 0.8
+      },
+      "targetSource": "Analysis/v2/config.json order (read-only, frozen model 2.1 draft)",
+      "ranges": [
+        {
+          "dimension": "abvPercent",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 12,
+          "max": 22,
+          "scale": 5.0
+        },
+        {
+          "dimension": "sugarAcidRatio",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 6,
+          "max": 14,
+          "scale": 4.0
+        },
+        {
+          "dimension": "temperature",
+          "hasMin": true,
+          "hasMax": true,
+          "min": -8,
+          "max": 0,
+          "scale": 4.0
+        },
+        {
+          "dimension": "dilutionPercent",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 15,
+          "max": 35,
+          "scale": 10.0
+        },
+        {
+          "dimension": "glass",
+          "hasMin": false,
+          "hasMax": false,
+          "min": 0,
+          "max": 0,
+          "scale": 1
+        }
+      ],
+      "referenceDescriptors": {
+        "abvPercent": 14.21061047822071,
+        "sugarAcidRatio": 10.053398058252428,
+        "temperature": -4.867340197723019,
+        "dilutionPercent": 28.255429065198854,
+        "co2Retention": null,
+        "volumeMl": 126.66591648252506,
+        "iceGrams": 0
+      }
+    },
+    {
+      "id": "gin-tonic",
+      "name": "Gin & Tonic",
+      "glass": "highball",
+      "glassLabel": "高球杯",
+      "description": "想要清爽冰凉的金汤力，气泡要留得住。",
+      "reference": {
+        "spiritMl": 45,
+        "tonicMl": 120,
+        "glassIceGrams": 160,
+        "stirSeconds": 3,
+        "intensity": 0.6
+      },
+      "targetSource": "C# CoreV2 2.2 reference + tolerances",
+      "ranges": [
+        {
+          "dimension": "abvPercent",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 8.825408585217406,
+          "max": 12.825408585217406,
+          "scale": 2
+        },
+        {
+          "dimension": "sugarAcidRatio",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 16.911764705882355,
+          "max": 28.186274509803923,
+          "scale": 5.637254901960785
+        },
+        {
+          "dimension": "temperature",
+          "hasMin": false,
+          "hasMax": true,
+          "min": 4.86602003791492,
+          "max": 10.86602003791492,
+          "scale": 3
+        },
+        {
+          "dimension": "dilutionPercent",
+          "hasMin": true,
+          "hasMax": true,
+          "min": -7.210861169991703,
+          "max": 8.789138830008298,
+          "scale": 8
+        },
+        {
+          "dimension": "co2Retention",
+          "hasMin": true,
+          "hasMax": false,
+          "min": 0.7474321065017997,
+          "max": 1.1474321065017998,
+          "scale": 0.2
+        },
+        {
+          "dimension": "glass",
+          "hasMin": false,
+          "hasMax": false,
+          "min": 0,
+          "max": 0,
+          "scale": 1
+        }
+      ],
+      "referenceDescriptors": {
+        "abvPercent": 10.825408585217406,
+        "sugarAcidRatio": 22.54901960784314,
+        "temperature": 7.86602003791492,
+        "dilutionPercent": 0.7891388300082973,
+        "co2Retention": 0.9474321065017998,
+        "volumeMl": 166.27547919604464,
+        "iceGrams": 158.68667192063668
+      }
+    },
+    {
+      "id": "tom-collins",
+      "name": "Tom Collins",
+      "glass": "highball",
+      "glassLabel": "高球杯",
+      "description": "来一杯清爽的柠檬金酒，酸甜平衡，带些气泡。",
+      "reference": {
+        "spiritMl": 45,
+        "syrupMl": 20,
+        "lemonMl": 25,
+        "shakerIceGrams": 80,
+        "glassIceGrams": 80,
+        "shakeSeconds": 12,
+        "sodaMl": 60,
+        "intensity": 0.8
+      },
+      "targetSource": "C# CoreV2 2.2 reference + tolerances",
+      "ranges": [
+        {
+          "dimension": "abvPercent",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 7.5790945875536,
+          "max": 11.5790945875536,
+          "scale": 2
+        },
+        {
+          "dimension": "sugarAcidRatio",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 7.540048543689322,
+          "max": 12.566747572815535,
+          "scale": 2.513349514563107
+        },
+        {
+          "dimension": "temperature",
+          "hasMin": false,
+          "hasMax": true,
+          "min": -4.94846965982618,
+          "max": 1.0515303401738203,
+          "scale": 3
+        },
+        {
+          "dimension": "dilutionPercent",
+          "hasMin": true,
+          "hasMax": true,
+          "min": 11.846792690514324,
+          "max": 27.846792690514324,
+          "scale": 8
+        },
+        {
+          "dimension": "co2Retention",
+          "hasMin": true,
+          "hasMax": false,
+          "min": 0.8,
+          "max": 1.2,
+          "scale": 0.2
+        },
+        {
+          "dimension": "glass",
+          "hasMin": false,
+          "hasMax": false,
+          "min": 0,
+          "max": 0,
+          "scale": 1
+        }
+      ],
+      "referenceDescriptors": {
+        "abvPercent": 9.5790945875536,
+        "sugarAcidRatio": 10.053398058252428,
+        "temperature": -1.9484696598261797,
+        "dilutionPercent": 19.846792690514324,
+        "co2Retention": 1,
+        "volumeMl": 187.9091999298966,
+        "iceGrams": 78.75671655262848
+      }
+    }
+  ]
+}

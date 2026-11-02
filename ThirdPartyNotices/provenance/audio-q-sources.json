@@ -1,0 +1,91 @@
+[
+  {
+    "id": "iceGlass",
+    "page": "https://freesound.org/people/Rvgerxini/sounds/464451/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/464/464451_9453283-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "e7f3544c78c733eb687016b5691d0d717da2e13fb97d863c9b1983d36f31e106"
+  },
+  {
+    "id": "iceMetal",
+    "page": "https://freesound.org/people/haulaway/sounds/828464/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/828/828464_7228277-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "6a57aeace3e368837465c01085694f7969175bf7135bcaf0a5fa7e616ddbc7b5"
+  },
+  {
+    "id": "stir",
+    "page": "https://freesound.org/people/Solar01/sounds/665189/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/665/665189_14490715-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "e43190bd52cb2d6914b853c7d8bc71924387379bcc4038390da49aab9b7a087b"
+  },
+  {
+    "id": "pourGlass",
+    "page": "https://freesound.org/people/martinimeniscus/sounds/200347/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/200/200347_2320755-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "2eefa4581a753e244512115b06d0bf476d7516d2b9efe8f78b8e4738847c2cb3"
+  },
+  {
+    "id": "can",
+    "page": "https://freesound.org/people/IENBA/sounds/830245/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/830/830245_9616576-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "576c044c353c30fb182e673ced4fd5e43820f9c9ac0c26c2418f54946c3272af"
+  },
+  {
+    "id": "sodaIce",
+    "page": "https://freesound.org/people/makemebad/sounds/95741/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/95/95741_638338-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "cf392efc8faeea5e51b8d72aff74e297db90f3b4c197b7970dc9b4b989dbd516"
+  },
+  {
+    "id": "bottleHiss",
+    "page": "https://freesound.org/people/SukritSen/sounds/398077/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/398/398077_6996854-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "29fbe8960ac06a4d5b058e812e1c3a0c6a1f36b06c28d31d83058de4c92eb674"
+  },
+  {
+    "id": "shaker",
+    "page": "https://freesound.org/people/KenRT/sounds/319995/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/319/319995_5440319-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "2c69ea0f6a0eeb4ee438d11e6ae09b119f79be6ce659221d2204bd32a3c5b89f"
+  },
+  {
+    "id": "shakerWet",
+    "page": "https://freesound.org/people/Oldome/sounds/870390/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "download": "https://cdn.freesound.org/previews/870/870390_12380230-hq.mp3",
+    "format": "public HQ MP3 preview; not original WAV",
+    "sha256": "456467bb42f93fb170078e1ceef72a7070bfc27c7d5b485bc48a4e2f810bfa21"
+  },
+  {
+    "id": "pourMetal",
+    "page": "https://freesound.org/people/Rudmer_Rotteveel/sounds/699581/",
+    "license": "CC0-1.0",
+    "verified": "2026-10-26",
+    "format": "existing public HQ MP3 preview; page explicitly says small steel pan",
+    "sha256": "cb8b30aa50282c82dab022f086d05bdda9115a5d82ee56057f7dc7ea1642fb38"
+  }
+]

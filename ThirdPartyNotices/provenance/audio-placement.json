@@ -1,0 +1,77 @@
+[
+  {
+    "resource": "BarAudio/place-0",
+    "sha256": "21f26035d2139c4a87c70a6a09d1ddeb2409fb27e1206bcb541794d5208d18c5",
+    "license": "CC0-1.0",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "provenance": "Existing project source manifest, no new download",
+    "playbackPitches": [
+      0.9399999976158142,
+      0.9200000166893005,
+      0.9800000190734863,
+      0.949999988079071
+    ]
+  },
+  {
+    "resource": "BarAudio/Q/iceMetal-0",
+    "sha256": "bdcf009307eb4fe4b1b724e95bc932c85cfedf025b05be4ab6db56fcd2192228",
+    "license": "CC0-1.0",
+    "sourcePage": "https://freesound.org/people/martinimeniscus/sounds/199429/",
+    "provenance": "Existing project source manifest, no new download",
+    "playbackPitches": [
+      0.9800000190734863
+    ]
+  },
+  {
+    "resource": "BarAudio/Q/strokeDull-0",
+    "sha256": "f184dad5095ef1ab80deddebbc97c9218fd85c900bba509410655330cfbfe56f",
+    "license": "CC0-1.0",
+    "sourcePage": "https://freesound.org/people/KenRT/sounds/319995/",
+    "provenance": "Existing project source manifest, no new download",
+    "playbackPitches": [
+      1.0
+    ]
+  },
+  {
+    "resource": "BarAudio/metal-2",
+    "sha256": "5b4775d5695d7912bd1e238c2a840d051eb08d4fd5d89cb4e7809d539efc741e",
+    "license": "CC0-1.0",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "provenance": "Existing project source manifest, no new download",
+    "playbackPitches": [
+      0.9700000286102295,
+      0.949999988079071
+    ]
+  },
+  {
+    "resource": "BarAudio/metal-0",
+    "sha256": "1aefbe42146a9e76b24053ec8a59fcab1d29e4b82545dd4d73fa70d756879a7b",
+    "license": "CC0-1.0",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "provenance": "Existing project source manifest, no new download",
+    "playbackPitches": [
+      1.100000023841858
+    ]
+  },
+  {
+    "resource": "BarAudio/metal-1",
+    "sha256": "b25b9e901d8b4cb54cc5fd0c02cb66b13b35fa17b3e205fd1b90375342d9b2eb",
+    "license": "CC0-1.0",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "provenance": "Existing project source manifest, no new download",
+    "playbackPitches": [
+      1.0299999713897705,
+      1.0800000429153442
+    ]
+  },
+  {
+    "resource": "BarAudio/lid-0",
+    "sha256": "8f9f40cea8e806b0a7350ed647c55937933d23dfd933259fd768a8e24a81d3db",
+    "license": "CC0-1.0",
+    "sourcePage": "https://kenney.nl/assets/impact-sounds",
+    "provenance": "Existing project source manifest, no new download",
+    "playbackPitches": [
+      0.949999988079071
+    ]
+  }
+]

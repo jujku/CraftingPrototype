@@ -1,0 +1,8 @@
+{
+  "source": "Uncalibrated presentation approximation. Floor and flat-floor radius are read from the unchanged cavity; 6 mm fillet matches the existing authorised Highball profile. Does not modify geometry or simulation.",
+  "innerFilletMetres": 0.006,
+  "absorptionScale": 0.35,
+  "refractionScale": 1.0,
+  "internalReflection": 1.0,
+  "presentationNote": "Uncalibrated thick-base glass presentation. Absorption and refraction expose the existing base thickness; the shader limits internal reflection highlights without modifying the cavity or simulation."
+}

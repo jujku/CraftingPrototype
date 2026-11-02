@@ -1,0 +1,1 @@
+<linker><assembly fullname="Bar.Logging" preserve="all"/><assembly fullname="CraftingResearch.SimulationV2" preserve="all"/><assembly fullname="Bar.Unity" preserve="all"/><assembly fullname="Bar.Data" preserve="all"/><assembly fullname="UnityEngine.PhysicsModule"><type fullname="UnityEngine.SphereCollider" preserve="all"/></assembly></linker>
