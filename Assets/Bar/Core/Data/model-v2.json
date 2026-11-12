@@ -1,7 +1,7 @@
 {
-  "model": "cocktail-proxy-2.3-guided-pour",
-  "sourceCoreSHA256": "58c842ef8bc20631446b9410642f8ab2fe675326f0b356e2bc26927a44616b3d",
-  "sourceModelSHA256": "502edf72b13ed8387b150072297a2f45c5025da0bf82fb8507cf878e57884269",
+  "model": "cocktail-proxy-2.4-ice-area-co2temp",
+  "sourceCoreSHA256": "3ca1f6e115f1b581007e0a3eb67f34241a7fa78e39720ebc4151cd1e93785905",
+  "sourceModelSHA256": "8e578bf92d365c537ba587a282ea0b75e3fb1b7961b0e7416a8aa7a765e1d5bd",
   "sourceIngredientsSHA256": "be37a1e21e87ed31fa18486eff2587dce0e927ddd5928c82b5a25a23097d5735",
   "specificHeat": 4.186,
   "latentHeat": 334,
@@ -10,8 +10,8 @@
   "environmentK": 0.5,
   "conductance": {
     "rest": 2,
-    "stir": 20,
-    "shake": 150
+    "stir": 12.633047695308584,
+    "shake": 199.2559683776695
   },
   "co2LossPerSecond": {
     "rest": 0.003,
@@ -384,5 +384,17 @@
         0
       ]
     }
-  ]
+  ],
+  "iceContact": {
+    "referenceMassGrams": 80,
+    "massExponent": 0.6666666666666666,
+    "assumption": "Geometrically similar aggregate ice proxy; mass is not a per-cube surface-area model."
+  },
+  "co2Temperature": {
+    "referenceTemperatureKelvin": 277.15,
+    "henrySlopeKelvin": 2400,
+    "lossMultiplier": 0.8840514274660765,
+    "source": "https://henrys-law.org/henry/casrn/124-38-9",
+    "interpretation": "Inverse aqueous Henry solubility ratio used as an empirical multiplier of existing first-order loss; not a measured kinetic law for cocktails."
+  }
 }

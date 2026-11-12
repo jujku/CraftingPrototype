@@ -20,6 +20,19 @@ namespace Bar.Tests
                 foreach(var op in ops)w.Apply(op);var s=w.Vessels.Single(v=>v.id==ops.Last().from).Snapshot();
                 File.WriteAllText(Path.Combine(output,order.id+"-reference.json"),SessionJournal.Encode(new LogRecord{served=s}));
                 Assert.That(w.Ledger().massResidual,Is.EqualTo(0).Within(1e-8));Assert.That(w.Ledger().energyResidual,Is.EqualTo(0).Within(1e-6));
+                // Frozen 2.3 reference outputs; only these three recipes anchor the 2.4 revision.
+                double temperature, dilution; double? retention;
+                switch(order.id)
+                {
+                    case "gin-sour": temperature=-4.867340197723019; dilution=28.255429065198854; retention=null; break;
+                    case "gin-tonic": temperature=7.867159031106108; dilution=0.7895898972662386; retention=0.871637537981656; break;
+                    case "tom-collins": temperature=-1.9493666939001781; dilution=19.849785603031503; retention=0.92; break;
+                    default: throw new InvalidOperationException("No frozen 2.3 anchor for " + order.id);
+                }
+                Assert.That(s.temperature,Is.EqualTo(temperature).Within(0.25),order.id+" temperature anchor");
+                Assert.That(s.dilutionPercent,Is.EqualTo(dilution).Within(0.5),order.id+" dilution anchor (percentage points)");
+                if(retention.HasValue) Assert.That(s.co2Retention,Is.EqualTo(retention.Value).Within(0.01),order.id+" retention anchor");
+                else Assert.That(s.co2Retention,Is.Null,order.id+" has no defined retention ratio");
             }
         }
         [Test] public void FeedbackUsesBoundsRanksSeverityAndNeverChecksSteps()

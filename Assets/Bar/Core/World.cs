@@ -6,7 +6,7 @@ namespace CraftingResearch.CoreV2
 {
     public sealed class World
     {
-        public const string Model = "cocktail-proxy-2.3-guided-pour";
+        public const string Model = "cocktail-proxy-2.4-ice-area-co2temp";
         public ModelData Data { get; }
         public string Profile { get; }
         public double Room { get; }
@@ -262,7 +262,7 @@ namespace CraftingResearch.CoreV2
                     else
                     {
                         double energy = v.E + qe + qv, f = Fp(v.ethanol, v.sugar, v.m), afterExchange = energy / (Data.specificHeat * v.m);
-                        double proposal = Math.Min(v.ice, Math.Max(0, Relaxation(afterExchange, f, Data.specificHeat * v.m, double.PositiveInfinity, k, dt) / Data.latentHeat));
+                        double proposal = Math.Min(v.ice, Math.Max(0, Relaxation(afterExchange, f, Data.specificHeat * v.m, double.PositiveInfinity, k * Math.Pow(v.ice / Data.iceContact.referenceMassGrams, Data.iceContact.massExponent), dt) / Data.latentHeat));
                         Func<double, double> gap = dm => (energy - Data.latentHeat * dm) / (Data.specificHeat * (v.m + dm)) - Fp(v.ethanol, v.sugar, v.m + dm);
                         if (gap(0) < -1e-8) Fail("REFREEZING_UNSUPPORTED", "Heat exchange requires refreezing");
                         melted = proposal;
@@ -271,7 +271,7 @@ namespace CraftingResearch.CoreV2
                     }
                     v.vesselEnergy -= qv; EnvironmentEnergy += qe;
                     v.ice = Math.Max(0, v.ice - melted); v.m += melted; v.water += melted; v.melt += melted; v.volume += melted;
-                    double rate = Data.co2LossPerSecond.Get(action), loss = v.gas * (1 - Math.Exp(-rate * dt)), energyLoss = Data.specificHeat * loss * v.Temperature.Value;
+                    double rate = Data.co2LossPerSecond.Get(action) * (Profile == "v2" ? Data.co2Temperature.lossMultiplier * Math.Exp(Data.co2Temperature.henrySlopeKelvin * (1 / Data.co2Temperature.referenceTemperatureKelvin - 1 / (v.Temperature.Value + 273.15))) : 1), loss = v.gas * (1 - Math.Exp(-rate * dt)), energyLoss = Data.specificHeat * loss * v.Temperature.Value;
                     v.gas -= loss; v.m -= loss; v.E -= energyLoss; v.volume -= loss; GasOut.m += loss; GasOut.gas += loss; GasOut.H += energyLoss;
                     if (CheckTemperatures) AssertTemperatureBounds(v);
                 }

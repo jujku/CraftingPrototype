@@ -36,6 +36,8 @@ namespace CraftingResearch.CoreV2
         public double specificHeat, latentHeat, step, roomTemperature, environmentK, ethanolDensity, iceDensity, icePortionGrams;
         public Rates conductance, co2LossPerSecond, wallAgitation;
         [System.Runtime.Serialization.OptionalField] public CarbonatedPourData carbonatedPour;
+        public IceContactData iceContact;
+        public Co2TemperatureData co2Temperature;
         public FreezingData freezing;
         public VesselDefinition[] vessels;
         public IngredientDefinition[] ingredients;
@@ -113,6 +115,8 @@ namespace CraftingResearch.CoreV2
         public VesselState[] vessels;
         public LedgerState ledger;
     }
+    [Serializable] public sealed class IceContactData { public double referenceMassGrams, massExponent; }
+    [Serializable] public sealed class Co2TemperatureData { public double referenceTemperatureKelvin, henrySlopeKelvin, lossMultiplier; }
     [Serializable] public sealed class CarbonatedPourData { public double directFraction,guidedFraction; }
     public sealed class PourResult { public string carbonatedPourMethod; public double co2InputGrams,co2LostOnEntryGrams;public double acceptedMl, overflowMl; public bool outsideFreezingDomain; }
     public sealed class ServeResult { public double time; public VesselState vessel; }
